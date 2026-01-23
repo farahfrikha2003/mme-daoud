@@ -1085,18 +1085,4 @@
     <ip>::1</ip>
     <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</userAgent>
   </visit>
-  <visit>
-    <id>mkrf0uh6kms0wicew</id>
-    <path>/boutiques</path>
-    <timestamp>2026-01-23T21:51:17.323Z</timestamp>
-    <ip>::1</ip>
-    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</userAgent>
-  </visit>
-  <visit>
-    <id>mkrf3nofugma4mlrw</id>
-    <path>/</path>
-    <timestamp>2026-01-23T21:53:28.479Z</timestamp>
-    <ip>::1</ip>
-    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</userAgent>
-  </visit>
 </visits>

@@ -12,7 +12,7 @@ export default function TraditionalSection() {
                     <div className={styles.imageColumn}>
                         <div className={styles.imageWrapper}>
                             <Image
-                                src="/images/hero/hero-1.jpg"
+                                src="/images/hero/hero-1.png"
                                 alt="Pâtisseries Traditionnelles"
                                 fill
                                 className={styles.sectionImage}

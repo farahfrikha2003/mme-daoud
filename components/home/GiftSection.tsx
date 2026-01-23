@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './GiftSection.module.css';
 
 const giftCategories = [
@@ -8,21 +9,24 @@ const giftCategories = [
         title: 'Coffrets Prestige',
         description: 'Nos plus belles créations dans des écrins raffinés',
         link: '/idees-cadeaux?category=prestige',
-        gradient: 'linear-gradient(135deg, #C9A98D 0%, #B68D51 100%)'
+        gradient: 'linear-gradient(135deg, #C9A98D 0%, #B68D51 100%)',
+        image: '/images/gifts/coffret-prestige.jpg'
     },
     {
         id: 2,
         title: 'Coffrets Cérémonies',
         description: 'Pour vos mariages, fiançailles et grandes occasions',
         link: '/ceremonies',
-        gradient: 'linear-gradient(135deg, #A08B7A 0%, #8B7355 100%)'
+        gradient: 'linear-gradient(135deg, #A08B7A 0%, #8B7355 100%)',
+        image: '/images/gifts/coffret-ceremonies.jpg'
     },
     {
         id: 3,
         title: 'Plateaux Assortis',
         description: 'Une sélection variée de nos spécialités',
         link: '/idees-cadeaux?category=plateaux',
-        gradient: 'linear-gradient(135deg, #D4B896 0%, #C9A98D 100%)'
+        gradient: 'linear-gradient(135deg, #D4B896 0%, #C9A98D 100%)',
+        image: '/images/gifts/plateau-assorti.jpg'
     }
 ];
 
@@ -51,6 +55,15 @@ export default function GiftSection() {
                                 className={styles.cardBackground}
                                 style={{ background: category.gradient }}
                             />
+                            <div className={styles.cardImage}>
+                                <Image
+                                    src={category.image}
+                                    alt={category.title}
+                                    fill
+                                    className={styles.image}
+                                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                                />
+                            </div>
                             <div className={styles.cardContent}>
                                 <h3 className={styles.cardTitle}>{category.title}</h3>
                                 <p className={styles.cardDescription}>{category.description}</p>

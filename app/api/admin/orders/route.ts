@@ -1,9 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { orderService } from '@/lib/services/OrderService';
 import { OrderFilters } from '@/lib/types/admin';
+import { requireAdminAuth } from '@/lib/auth/middleware';
 
 // GET - Liste toutes les commandes
 export async function GET(request: NextRequest) {
+    const authResult = await requireAdminAuth(request);
+    if (authResult.response) {
+        return authResult.response;
+    }
     try {
         const { searchParams } = new URL(request.url);
 

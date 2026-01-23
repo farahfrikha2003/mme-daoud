@@ -1,9 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { logService } from '@/lib/services/LogService';
 import { LogFilters } from '@/lib/types/admin';
+import { requireAdminAuth } from '@/lib/auth/middleware';
 
 // GET - Liste les logs
 export async function GET(request: NextRequest) {
+    const authResult = await requireAdminAuth(request);
+    if (authResult.response) {
+        return authResult.response;
+    }
     try {
         const { searchParams } = new URL(request.url);
 

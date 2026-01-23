@@ -3,9 +3,14 @@ import { cookies } from 'next/headers';
 import { categoryService } from '@/lib/xml/CategoryService';
 import { logService } from '@/lib/services/LogService';
 import { verifyToken } from '@/lib/auth/AuthService';
+import { requireAdminAuth } from '@/lib/auth/middleware';
 
 // GET - Liste toutes les catégories (y compris inactives)
-export async function GET() {
+export async function GET(request: NextRequest) {
+    const authResult = await requireAdminAuth(request);
+    if (authResult.response) {
+        return authResult.response;
+    }
     try {
         const categories = await categoryService.getAll();
         return NextResponse.json({
@@ -23,10 +28,13 @@ export async function GET() {
 
 // POST - Créer une nouvelle catégorie
 export async function POST(request: NextRequest) {
+    const authResult = await requireAdminAuth(request);
+    if (authResult.response) {
+        return authResult.response;
+    }
+    const payload = authResult.payload;
+    
     try {
-        const cookieStore = await cookies();
-        const token = cookieStore.get('admin_token')?.value;
-        const payload = token ? await verifyToken(token) : null;
 
         const body = await request.json();
         const { slug, name, description, image, order } = body;

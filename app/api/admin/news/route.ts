@@ -1,7 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { newsService } from '@/lib/services/NewsService';
+import { requireAdminAuth } from '@/lib/auth/middleware';
 
 export async function POST(req: NextRequest) {
+    const authResult = await requireAdminAuth(req);
+    if (authResult.response) {
+        return authResult.response;
+    }
     try {
         const body = await req.json();
         const newArticle = await newsService.create(body);
@@ -12,6 +17,10 @@ export async function POST(req: NextRequest) {
 }
 
 export async function PUT(req: NextRequest) {
+    const authResult = await requireAdminAuth(req);
+    if (authResult.response) {
+        return authResult.response;
+    }
     try {
         const body = await req.json();
         const { id, ...updates } = body;
@@ -23,6 +32,10 @@ export async function PUT(req: NextRequest) {
 }
 
 export async function DELETE(req: NextRequest) {
+    const authResult = await requireAdminAuth(req);
+    if (authResult.response) {
+        return authResult.response;
+    }
     try {
         const { searchParams } = new URL(req.url);
         const id = searchParams.get('id');

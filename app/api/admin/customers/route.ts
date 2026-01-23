@@ -1,7 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { customerService } from '@/lib/services/CustomerService';
+import { requireAdminAuth } from '@/lib/auth/middleware';
 
-export async function GET() {
+export async function GET(request: NextRequest) {
+    const authResult = await requireAdminAuth(request);
+    if (authResult.response) {
+        return authResult.response;
+    }
     try {
         const customers = await customerService.getAll();
         // Return without passwords
@@ -16,6 +21,10 @@ export async function GET() {
 }
 
 export async function DELETE(req: NextRequest) {
+    const authResult = await requireAdminAuth(req);
+    if (authResult.response) {
+        return authResult.response;
+    }
     try {
         const { searchParams } = new URL(req.url);
         const id = searchParams.get('id');

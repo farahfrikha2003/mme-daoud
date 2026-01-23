@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import { AdminProvider, useAdmin } from '@/context/AdminContext';
+import { AdminLayoutWrapper } from './AdminLayoutWrapper';
 import styles from './layout.module.css';
 
 const navItems = [
@@ -109,8 +110,10 @@ function AdminLayoutContent({ children }: { children: React.ReactNode }) {
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
     return (
-        <AdminProvider>
-            <AdminLayoutContent>{children}</AdminLayoutContent>
-        </AdminProvider>
+        <AdminLayoutWrapper>
+            <AdminProvider>
+                <AdminLayoutContent>{children}</AdminLayoutContent>
+            </AdminProvider>
+        </AdminLayoutWrapper>
     );
 }

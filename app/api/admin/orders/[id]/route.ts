@@ -4,6 +4,7 @@ import { orderService } from '@/lib/services/OrderService';
 import { logService } from '@/lib/services/LogService';
 import { verifyToken } from '@/lib/auth/AuthService';
 import { OrderStatus } from '@/lib/types/admin';
+import { requireAdminAuth } from '@/lib/auth/middleware';
 
 type RouteContext = {
     params: Promise<{ id: string }>;
@@ -11,6 +12,10 @@ type RouteContext = {
 
 // GET - Récupérer une commande
 export async function GET(request: NextRequest, context: RouteContext) {
+    const authResult = await requireAdminAuth(request);
+    if (authResult.response) {
+        return authResult.response;
+    }
     try {
         const { id } = await context.params;
         const order = await orderService.getById(id);
@@ -37,11 +42,14 @@ export async function GET(request: NextRequest, context: RouteContext) {
 
 // PATCH - Changer le statut d'une commande
 export async function PATCH(request: NextRequest, context: RouteContext) {
+    const authResult = await requireAdminAuth(request);
+    if (authResult.response) {
+        return authResult.response;
+    }
+    const payload = authResult.payload;
+    
     try {
         const { id } = await context.params;
-        const cookieStore = await cookies();
-        const token = cookieStore.get('admin_token')?.value;
-        const payload = token ? await verifyToken(token) : null;
 
         const body = await request.json();
         const { status, note } = body;

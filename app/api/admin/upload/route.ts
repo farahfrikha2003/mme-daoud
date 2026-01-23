@@ -1,22 +1,15 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { writeFile, mkdir } from 'fs/promises';
 import path from 'path';
-import { verifyToken } from '@/lib/auth/AuthService';
-import { cookies } from 'next/headers';
+import { requireAdminAuth } from '@/lib/auth/middleware';
 
 export async function POST(request: NextRequest) {
+    const authResult = await requireAdminAuth(request);
+    if (authResult.response) {
+        return authResult.response;
+    }
+    
     try {
-        // Authentification
-        const cookieStore = await cookies();
-        const token = cookieStore.get('admin_token')?.value;
-        const payload = token ? await verifyToken(token) : null;
-
-        if (!payload) {
-            return NextResponse.json(
-                { success: false, error: 'Non autorisé' },
-                { status: 401 }
-            );
-        }
 
         const data = await request.formData();
         const file: File | null = data.get('file') as unknown as File;

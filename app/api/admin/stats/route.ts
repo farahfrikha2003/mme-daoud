@@ -1,12 +1,17 @@
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import { productService } from '@/lib/services/ProductService';
 import { orderService } from '@/lib/services/OrderService';
 import { categoryService } from '@/lib/xml/CategoryService';
 import { employeeService } from '@/lib/services/EmployeeService';
 import { visitService } from '@/lib/services/VisitService';
+import { requireAdminAuth } from '@/lib/auth/middleware';
 
 // GET - Statistiques du dashboard
-export async function GET() {
+export async function GET(request: NextRequest) {
+    const authResult = await requireAdminAuth(request);
+    if (authResult.response) {
+        return authResult.response;
+    }
     try {
         // Récupérer les données
         const [products, categories, orderStats, employees, allOrders, visitStats] = await Promise.all([

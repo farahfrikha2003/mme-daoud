@@ -3,9 +3,14 @@ import { cookies } from 'next/headers';
 import { employeeService } from '@/lib/services/EmployeeService';
 import { logService } from '@/lib/services/LogService';
 import { verifyToken } from '@/lib/auth/AuthService';
+import { requireAdminAuth } from '@/lib/auth/middleware';
 
 // GET - Liste tous les employés
-export async function GET() {
+export async function GET(request: NextRequest) {
+    const authResult = await requireAdminAuth(request);
+    if (authResult.response) {
+        return authResult.response;
+    }
     try {
         const employees = await employeeService.getAll();
 
@@ -24,10 +29,13 @@ export async function GET() {
 
 // POST - Créer un nouvel employé
 export async function POST(request: NextRequest) {
+    const authResult = await requireAdminAuth(request);
+    if (authResult.response) {
+        return authResult.response;
+    }
+    const authPayload = authResult.payload;
+    
     try {
-        const cookieStore = await cookies();
-        const token = cookieStore.get('admin_token')?.value;
-        const authPayload = token ? await verifyToken(token) : null;
 
         const body = await request.json();
 

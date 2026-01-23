@@ -1,0 +1,188 @@
+.page {
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, var(--color-primary-beige) 0%, var(--color-primary-gold) 100%);
+    padding: 5rem 0;
+    text-align: center;
+    color: white;
+}
+
+.title {
+    font-family: var(--font-display);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    opacity: 0.9;
+}
+
+/* Intro */
+.intro {
+    padding: 3rem 0;
+    background: var(--color-bg-white);
+}
+
+.introText {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.0625rem;
+    line-height: 1.8;
+    color: var(--color-text-light);
+}
+
+/* Ceremonies Section */
+.ceremoniesSection {
+    padding: 3rem 0 5rem;
+    background: var(--color-bg-cream);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Ceremony Card */
+.ceremonyCard {
+    background: var(--color-bg-white);
+    padding: 2.5rem 2rem;
+    border-radius: var(--radius-lg);
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition-normal);
+}
+
+.ceremonyCard:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+}
+
+.ceremonyIcon {
+    display: block;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.ceremonyTitle {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    color: var(--color-text-dark);
+    margin-bottom: 1rem;
+}
+
+.ceremonyDescription {
+    font-size: 0.9375rem;
+    color: var(--color-text-light);
+    line-height: 1.6;
+}
+
+/* Services */
+.services {
+    padding: 5rem 0;
+    background: var(--color-bg-white);
+}
+
+.sectionTitle {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    color: var(--color-text-dark);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.servicesList {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.serviceItem {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+    color: var(--color-text-light);
+}
+
+.serviceIcon {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-primary-gold);
+    color: white;
+    border-radius: var(--radius-full);
+    font-size: 0.75rem;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+/* CTA */
+.cta {
+    padding: 5rem 0;
+    background: linear-gradient(135deg, var(--color-primary-gold) 0%, var(--color-primary-brown) 100%);
+}
+
+.ctaContent {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.ctaTitle {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.ctaText {
+    font-size: 1.125rem;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+
+.ctaButton {
+    display: inline-flex;
+    padding: 1rem 2.5rem;
+    background: var(--color-bg-white);
+    color: var(--color-primary-gold);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border-radius: var(--radius-full);
+    transition: all var(--transition-normal);
+}
+
+.ctaButton:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+}

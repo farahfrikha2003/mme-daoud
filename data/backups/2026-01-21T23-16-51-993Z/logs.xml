@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logs>
+  <log>
+    <id>mkohcqhcwk8vbx5ed</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>update</action>
+    <entity>product</entity>
+    <entityId>102</entityId>
+    <details>Mise à jour du produit: Baklawa Bourgeoise</details>
+    <timestamp>2026-01-21T20:33:12.720Z</timestamp>
+  </log>
+  <log>
+    <id>mkoh9e2zlytgw4tx7</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>update</action>
+    <entity>product</entity>
+    <entityId>101</entityId>
+    <details>Mise à jour du produit: Baklawa Fekia</details>
+    <timestamp>2026-01-21T20:30:36.683Z</timestamp>
+  </log>
+  <log>
+    <id>mkogjwckc2xvifl37</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>login</action>
+    <entity>session</entity>
+    <details>Connexion réussie</details>
+    <ipAddress>::1</ipAddress>
+    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0</userAgent>
+    <timestamp>2026-01-21T20:10:47.300Z</timestamp>
+  </log>
+  <log>
+    <id>mkofee2hzgt00x8hs</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>login</action>
+    <entity>session</entity>
+    <details>Connexion réussie</details>
+    <ipAddress>::1</ipAddress>
+    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0</userAgent>
+    <timestamp>2026-01-21T19:38:30.713Z</timestamp>
+  </log>
+  <log>
+    <id>mkof4zhdspsjg21qg</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>login</action>
+    <entity>session</entity>
+    <details>Connexion réussie</details>
+    <ipAddress>::1</ipAddress>
+    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0</userAgent>
+    <timestamp>2026-01-21T19:31:11.905Z</timestamp>
+  </log>
+  <log>
+    <id>mkoe7yzhagca99bmj</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>login</action>
+    <entity>session</entity>
+    <details>Connexion réussie (Self-Healed)</details>
+    <ipAddress>::1</ipAddress>
+    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0</userAgent>
+    <timestamp>2026-01-21T19:05:31.613Z</timestamp>
+  </log>
+</logs>

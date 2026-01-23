@@ -1,0 +1,197 @@
+.card {
+    display: block;
+    background: var(--color-bg-white);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    transition: all var(--transition-normal);
+    box-shadow: var(--shadow-sm);
+}
+
+.card:hover {
+    box-shadow: var(--shadow-xl);
+    transform: translateY(-6px);
+}
+
+/* Image Container */
+.imageContainer {
+    position: relative;
+    aspect-ratio: 1;
+    overflow: hidden;
+    background: var(--color-bg-light);
+}
+
+.image {
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+}
+
+.card:hover .image {
+    transform: scale(1.08);
+}
+
+.placeholderImage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform var(--transition-slow);
+}
+
+.card:hover .placeholderImage {
+    transform: scale(1.08);
+}
+
+.placeholderText {
+    font-family: var(--font-serif);
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+}
+
+/* Badges */
+.badges {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    z-index: 5;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.625rem;
+    font-size: 0.625rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: var(--radius-sm);
+}
+
+.badgeNew {
+    background: var(--color-primary-gold);
+    color: white;
+}
+
+.badgePromo {
+    background: var(--color-error);
+    color: white;
+}
+
+.badgeGluten {
+    background: var(--color-success);
+    color: white;
+}
+
+/* Favorite Button */
+.favoriteButton {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    color: var(--color-text-light);
+    z-index: 5;
+    transition: all var(--transition-fast);
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+.card:hover .favoriteButton {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.favoriteButton:hover {
+    background: white;
+    color: var(--color-error);
+}
+
+.favoriteActive {
+    opacity: 1;
+    transform: scale(1);
+    color: var(--color-error);
+}
+
+/* Add to Cart Overlay */
+.addToCartOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.875rem;
+    background: var(--color-primary-gold);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    transform: translateY(100%);
+    transition: all var(--transition-normal);
+}
+
+.card:hover .addToCartOverlay {
+    transform: translateY(0);
+}
+
+.addToCartOverlay:hover {
+    background: var(--color-primary-brown);
+}
+
+/* Content */
+.content {
+    padding: 1rem;
+    text-align: center;
+}
+
+.name {
+    font-family: var(--font-serif);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--color-text-dark);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    line-height: 1.3;
+}
+
+.priceRow {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+.price {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--color-primary-gold);
+}
+
+.originalPrice {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    text-decoration: line-through;
+    margin-right: 0.25rem;
+}
+
+.unit {
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+}

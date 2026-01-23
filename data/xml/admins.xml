@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<admins>
+  <admin>
+    <id>1</id>
+    <username>admin</username>
+    <email>admin@mmedaoud.tn</email>
+    <passwordHash>$2b$10$Rm9ICedlJDj6SNSrCsVb0uGi9pMdyzIMvN0tWeYQeah/psXJCHCCW</passwordHash>
+    <role>super_admin</role>
+    <firstName>Admin</firstName>
+    <lastName>Mme Daoud</lastName>
+    <isActive>true</isActive>
+    <createdAt>2024-01-01T00:00:00Z</createdAt>
+    <updatedAt>2026-01-21T19:05:31.580Z</updatedAt>
+    <lastLogin>2026-01-23T00:26:08.796Z</lastLogin>
+  </admin>
+</admins>

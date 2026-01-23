@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customers>
+  <customer>
+    <id>mkq5lwik8ai0fboxu</id>
+    <email>farahfrikha471@gmail.com</email>
+    <username>farahfrikha471</username>
+    <passwordHash>0000</passwordHash>
+    <createdAt>2026-01-23T00:39:57.404Z</createdAt>
+    <updatedAt>2026-01-23T00:39:57.404Z</updatedAt>
+    <isActive>true</isActive>
+  </customer>
+</customers>

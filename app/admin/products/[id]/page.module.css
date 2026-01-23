@@ -1,0 +1,356 @@
+/* ========================================
+   PRODUCT EDIT PAGE - Design Expert
+   ======================================== */
+.page {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    animation: pageEnter 0.5s ease-out;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@keyframes pageEnter {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ========================================
+   HEADER
+   ======================================== */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    color: var(--color-primary-brown);
+    margin: 0;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.cancelButton,
+.saveButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.875rem 2rem;
+    border-radius: var(--radius-full);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.8125rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+
+.cancelButton {
+    background: transparent;
+    border: 1px solid rgba(182, 141, 81, 0.3);
+    color: var(--color-text-dark);
+}
+
+.cancelButton:hover {
+    border-color: var(--color-primary-brown);
+    color: var(--color-primary-brown);
+    background: rgba(182, 141, 81, 0.05);
+}
+
+.saveButton {
+    background: linear-gradient(135deg, var(--color-primary-gold) 0%, var(--color-primary-brown) 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(182, 141, 81, 0.25);
+}
+
+.saveButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(182, 141, 81, 0.35);
+}
+
+.saveButton:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* ========================================
+   FORM CONTAINER
+   ======================================== */
+.formContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.mainColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sideColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(201, 169, 141, 0.08);
+}
+
+.cardTitle {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    color: var(--color-text-dark);
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(201, 169, 141, 0.15);
+}
+
+/* ========================================
+   FORM GROUPS & GRID
+   ======================================== */
+.formGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.formGroup {
+    margin-bottom: 1.5rem;
+}
+
+.label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--color-text-light);
+    margin-bottom: 0.625rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.input,
+.textarea,
+.textareaSmall,
+.select {
+    width: 100%;
+    padding: 0.875rem 1.125rem;
+    border: 1.5px solid rgba(201, 169, 141, 0.2);
+    border-radius: var(--radius-md);
+    font-size: 0.9375rem;
+    font-family: var(--font-sans);
+    background: var(--color-bg-warm);
+    color: var(--color-text-dark);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:focus,
+.textarea:focus,
+.textareaSmall:focus,
+.select:focus {
+    outline: none;
+    border-color: var(--color-primary-gold);
+    background: white;
+    box-shadow: 0 0 0 4px rgba(182, 141, 81, 0.08);
+}
+
+.textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.textareaSmall {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.textareaLarge {
+    resize: vertical;
+    min-height: 240px;
+}
+
+.inputWithUnit {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.inputWithUnit .input {
+    padding-right: 3.5rem;
+}
+
+.unit {
+    position: absolute;
+    right: 1.125rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--color-primary-gold);
+}
+
+.inputUrl {
+    width: 100%;
+    padding: 0.625rem 1rem;
+    border: 1.5px solid rgba(201, 169, 141, 0.2);
+    border-radius: var(--radius-md);
+    background: var(--color-bg-warm);
+    color: var(--color-text-dark);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 1rem;
+    font-size: 0.8125rem;
+}
+
+.inputUrl:focus {
+    outline: none;
+    border-color: var(--color-primary-gold);
+    background: white;
+    box-shadow: 0 0 0 4px rgba(182, 141, 81, 0.08);
+}
+
+/* ========================================
+   IMAGE UPLOAD
+   ======================================== */
+.imageUpload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed rgba(201, 169, 141, 0.3);
+    border-radius: var(--radius-md);
+    padding: 2rem;
+    background: var(--color-bg-warm);
+    cursor: pointer;
+    transition: all 0.2s;
+    min-height: 220px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.imageUpload:hover {
+    background: rgba(182, 141, 81, 0.05);
+    border-color: var(--color-primary-gold);
+}
+
+.previewImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.uploadPlaceholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    color: var(--color-text-muted);
+    z-index: 1;
+}
+
+.uploadHint {
+    font-size: 0.75rem;
+    opacity: 0.6;
+}
+
+/* ========================================
+   TOGGLES
+   ======================================== */
+.toggles {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.toggleItem {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    cursor: pointer;
+    padding: 0.75rem;
+    border-radius: var(--radius-md);
+    transition: background 0.2s;
+}
+
+.toggleItem:hover {
+    background: var(--color-bg-warm);
+}
+
+.toggleText {
+    display: flex;
+    flex-direction: column;
+}
+
+.toggleText span {
+    font-weight: 600;
+    font-size: 0.9375rem;
+    color: var(--color-text-dark);
+}
+
+.toggleText small {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+}
+
+.checkbox {
+    width: 1.25rem;
+    height: 1.25rem;
+    accent-color: var(--color-primary-gold);
+    cursor: pointer;
+    margin-top: 0.25rem;
+}
+
+.fieldHint {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* ========================================
+   UTILITIES
+   ======================================== */
+.errorBanner {
+    background: #fef2f2;
+    border: 1px solid #fee2e2;
+    color: #ef4444;
+    padding: 1rem 1.5rem;
+    border-radius: var(--radius-md);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    color: var(--color-primary-gold);
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+}

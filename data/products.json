@@ -1,0 +1,22 @@
+[
+    {
+        "slug": "boule-bjawia",
+        "name": "Boule Bjawia",
+        "description": "La Boule Bjawia est une pâtisserie traditionnelle tunisienne, véritable symbole de l'art culinaire sfaxien.",
+        "price": 11.6,
+        "images": [
+            "/images/products/boule-bjawia.jpg"
+        ],
+        "isFeatured": true
+    },
+    {
+        "slug": "marocain",
+        "name": "Marocain",
+        "description": "Le Marocain est une pâtisserie aux amandes d'origine maghrébine.",
+        "price": 8.2,
+        "images": [
+            "/images/products/marocain.jpg"
+        ],
+        "isFeatured": true
+    }
+]

@@ -1,0 +1,256 @@
+/* ========================================
+   ORDERS PAGE - Design Expert
+   ======================================== */
+.page {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    animation: pageEnter 0.5s ease-out;
+}
+
+@keyframes pageEnter {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ========================================
+   FILTERS HEADER
+   ======================================== */
+.header {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    background: var(--color-bg-white);
+    padding: 1.75rem 2rem;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 4px 20px rgba(201, 169, 141, 0.08);
+    border: 1px solid rgba(201, 169, 141, 0.15);
+}
+
+.searchInput {
+    flex: 1;
+    min-width: 280px;
+    max-width: 480px;
+    padding: 1rem 1.5rem;
+    border: 1.5px solid rgba(201, 169, 141, 0.2);
+    border-radius: var(--radius-md);
+    font-size: 0.9375rem;
+    font-family: var(--font-sans);
+    background: var(--color-bg-warm);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.searchInput:focus {
+    outline: none;
+    border-color: var(--color-primary-gold);
+    background: white;
+    box-shadow: 0 0 0 4px rgba(182, 141, 81, 0.08);
+}
+
+.filterSelect {
+    padding: 1rem 1.5rem;
+    border: 1.5px solid rgba(201, 169, 141, 0.2);
+    border-radius: var(--radius-md);
+    font-size: 0.9375rem;
+    font-family: var(--font-sans);
+    background: white;
+    color: var(--color-text-dark);
+    cursor: pointer;
+    transition: all 0.2s;
+    min-width: 180px;
+}
+
+.filterSelect:focus {
+    outline: none;
+    border-color: var(--color-primary-gold);
+}
+
+/* ========================================
+   LOADING & EMPTY STATES
+   ======================================== */
+.loading,
+.empty {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: 5rem 2rem;
+    text-align: center;
+    color: var(--color-text-light);
+    border: 2px dashed rgba(201, 169, 141, 0.2);
+}
+
+/* ========================================
+   DATA TABLE
+   ======================================== */
+.table {
+    background: var(--color-bg-white);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(201, 169, 141, 0.08);
+    border: 1px solid rgba(201, 169, 141, 0.15);
+}
+
+.tableHeader {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 0.75fr 1fr 1.5fr 1fr 1fr;
+    gap: 1.25rem;
+    padding: 1.25rem 2rem;
+    background: var(--color-bg-warm);
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-text-light);
+    border-bottom: 1px solid rgba(201, 169, 141, 0.15);
+}
+
+.tableRow {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 0.75fr 1fr 1.5fr 1fr 1fr;
+    gap: 1.25rem;
+    padding: 1.25rem 2rem;
+    border-bottom: 1px solid rgba(224, 221, 217, 0.4);
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.tableRow:last-child {
+    border-bottom: none;
+}
+
+.tableRow:hover {
+    background: rgba(182, 141, 81, 0.03);
+}
+
+/* ========================================
+   ORDER DETAILS
+   ======================================== */
+.orderNumber {
+    font-weight: 700;
+    color: var(--color-primary-brown);
+    font-family: 'SF Mono', 'Monaco', 'Inconsolata', monospace;
+    font-size: 0.875rem;
+}
+
+.customer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.customerName {
+    font-weight: 600;
+    color: var(--color-text-dark);
+    font-size: 0.9375rem;
+}
+
+.customerEmail {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+}
+
+.items {
+    color: var(--color-text-dark);
+    font-weight: 500;
+}
+
+.total {
+    font-weight: 700;
+    color: var(--color-primary-brown);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+}
+
+.date {
+    color: var(--color-text-light);
+    font-size: 0.8125rem;
+}
+
+/* ========================================
+   STATUS SELECT
+   ======================================== */
+.statusSelect {
+    padding: 0.4rem 0.75rem;
+    border-radius: var(--radius-full);
+    font-size: 0.6875rem;
+    font-weight: 700;
+    border: 1.5px solid transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    width: 100%;
+    text-align: center;
+    appearance: none;
+    transition: all 0.2s;
+}
+
+.status_pending {
+    background: linear-gradient(135deg, #FFF8F0 0%, #FFF3E6 100%);
+    color: #C17F24;
+    border-color: rgba(193, 127, 36, 0.25);
+}
+
+.status_confirmed {
+    background: linear-gradient(135deg, #F0FDFA 0%, #E6FAF5 100%);
+    color: #0D9488;
+    border-color: rgba(13, 148, 136, 0.25);
+}
+
+.status_processing {
+    background: linear-gradient(135deg, #EFF6FF 0%, #E6F0FF 100%);
+    color: #2563EB;
+    border-color: rgba(37, 99, 235, 0.25);
+}
+
+.status_shipped {
+    background: linear-gradient(135deg, #F5F3FF 0%, #EDE9FE 100%);
+    color: #7C3AED;
+    border-color: rgba(124, 58, 237, 0.25);
+}
+
+.status_delivered {
+    background: linear-gradient(135deg, #ECFDF5 0%, #D1FAE5 100%);
+    color: #059669;
+    border-color: rgba(5, 150, 105, 0.25);
+}
+
+.status_cancelled {
+    background: linear-gradient(135deg, #FEF2F2 0%, #FEE2E2 100%);
+    color: #DC2626;
+    border-color: rgba(220, 38, 38, 0.25);
+}
+
+/* ========================================
+   VIEW BUTTON
+   ======================================== */
+.viewButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: 1px solid rgba(182, 141, 81, 0.5);
+    color: var(--color-primary-brown);
+    border-radius: var(--radius-full);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-align: center;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    min-width: 80px;
+}
+
+.viewButton:hover {
+    background: var(--color-primary-gold);
+    border-color: var(--color-primary-gold);
+    color: white;
+    box-shadow: 0 4px 10px rgba(182, 141, 81, 0.2);
+}

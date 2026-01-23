@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:element name="logs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="log" type="LogType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="LogType">
+    <xs:sequence>
+      <xs:element name="id" type="xs:string"/>
+      <xs:element name="adminId" type="xs:string"/>
+      <xs:element name="adminUsername" type="xs:string"/>
+      <xs:element name="action" type="ActionType"/>
+      <xs:element name="entity" type="EntityType"/>
+      <xs:element name="entityId" type="xs:string" minOccurs="0"/>
+      <xs:element name="details" type="xs:string" minOccurs="0"/>
+      <xs:element name="ipAddress" type="xs:string" minOccurs="0"/>
+      <xs:element name="userAgent" type="xs:string" minOccurs="0"/>
+      <xs:element name="timestamp" type="xs:dateTime"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="ActionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="login"/>
+      <xs:enumeration value="logout"/>
+      <xs:enumeration value="create"/>
+      <xs:enumeration value="update"/>
+      <xs:enumeration value="delete"/>
+      <xs:enumeration value="toggle"/>
+      <xs:enumeration value="upload"/>
+      <xs:enumeration value="status_change"/>
+      <xs:enumeration value="view"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="EntityType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="admin"/>
+      <xs:enumeration value="category"/>
+      <xs:enumeration value="product"/>
+      <xs:enumeration value="order"/>
+      <xs:enumeration value="session"/>
+      <xs:enumeration value="system"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

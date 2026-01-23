@@ -1,0 +1,331 @@
+.page {
+    min-height: 100vh;
+    background: var(--color-bg-white);
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, var(--color-bg-cream) 0%, var(--color-bg-light) 100%);
+    padding: 3rem 0;
+    text-align: center;
+    border-bottom: 1px solid #E8E5E1;
+}
+
+.title {
+    font-family: var(--font-display);
+    font-size: 3rem;
+    color: var(--color-text-dark);
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.125rem;
+    color: var(--color-text-light);
+}
+
+/* Content */
+.content {
+    padding: 3rem 0 5rem;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+@media (min-width: 1024px) {
+    .layout {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+/* Mobile Toggle */
+.mobileFiltersToggle {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+    padding: 1rem;
+    background: var(--color-bg-cream);
+    border: 1px solid #E0DDD9;
+    border-radius: var(--radius-md);
+    color: var(--color-text-dark);
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 1024px) {
+    .mobileFiltersToggle {
+        display: none;
+    }
+}
+
+/* Sidebar */
+.sidebar {
+    display: none;
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .sidebar {
+        display: block;
+        width: 280px;
+        flex-shrink: 0;
+        position: sticky;
+        top: 100px;
+    }
+}
+
+.sidebarOpen {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 1000;
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+.sidebarHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 1024px) {
+    .sidebarHeader {
+        display: none;
+    }
+}
+
+.sidebarTitle {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    color: var(--color-text-dark);
+}
+
+.closeSidebar {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-bg-cream);
+    border: none;
+    border-radius: var(--radius-full);
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+/* Filter Sections */
+.filterSection {
+    margin-bottom: 2.5rem;
+}
+
+.filterTitle {
+    font-family: var(--font-serif);
+    font-size: 1.125rem;
+    color: var(--color-text-dark);
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--color-primary-beige);
+}
+
+.searchInput {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #E0DDD9;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-sans);
+    font-size: 0.9375rem;
+    transition: all var(--transition-fast);
+}
+
+.searchInput:focus {
+    outline: none;
+    border-color: var(--color-primary-gold);
+    box-shadow: 0 0 0 3px rgba(212, 163, 115, 0.1);
+}
+
+.categoryList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.categoryItemWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.categoryCheckboxLabel {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--radius-sm);
+    color: var(--color-text-dark);
+    cursor: pointer;
+    transition: background var(--transition-fast);
+    font-size: 0.9375rem;
+}
+
+.categoryCheckboxLabel:hover {
+    background: var(--color-bg-cream);
+    color: var(--color-primary-brown);
+}
+
+.subCategoryList {
+    display: block;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-top: 0.25rem;
+    border-left: 1px solid #E0DDD9;
+    margin-left: 1.5rem;
+}
+
+.subCategoryList.alwaysOpen {
+    display: block !important;
+}
+
+.loadingCategories {
+    color: var(--color-text-light);
+    font-style: italic;
+    font-size: 0.9375rem;
+}
+
+.priceRange {
+    padding: 0 0.5rem;
+}
+
+.rangeInput {
+    width: 100%;
+    margin-bottom: 1rem;
+    accent-color: var(--color-primary-gold);
+}
+
+.priceLabels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+    font-weight: 500;
+}
+
+.checkboxLabel {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+}
+
+.checkboxInput {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--color-primary-gold);
+}
+
+.clearButton {
+    width: 100%;
+    padding: 0.75rem;
+    background: var(--color-bg-light);
+    color: var(--color-text-muted);
+    border: none;
+    border-radius: var(--radius-sm);
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+}
+
+.clearButton:hover {
+    background: #E8E8E8;
+    color: var(--color-text-dark);
+}
+
+/* Main Content */
+.main {
+    flex: 1;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #E8E5E1;
+}
+
+.resultCount {
+    font-size: 0.9375rem;
+    color: var(--color-text-light);
+}
+
+.sortSelect {
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    border: 1px solid #E0DDD9;
+    border-radius: var(--radius-sm);
+    background: white;
+    font-family: var(--font-sans);
+    font-size: 0.9375rem;
+    color: var(--color-text-dark);
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.noResults {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 2rem;
+    text-align: center;
+    color: var(--color-text-muted);
+}
+
+.noResultsIcon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.5;
+}
+
+.noResults h3 {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    color: var(--color-text-dark);
+    margin-bottom: 0.5rem;
+}
+
+.resetButton {
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--color-primary-gold);
+    color: white;
+    border: none;
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    transition: all var(--transition-normal);
+}
+
+.resetButton:hover {
+    background: var(--color-primary-brown);
+    transform: translateY(-2px);
+}

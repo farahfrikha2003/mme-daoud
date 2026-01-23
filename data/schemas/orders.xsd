@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:element name="orders">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="order" type="OrderType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="OrderType">
+    <xs:sequence>
+      <xs:element name="id" type="xs:string"/>
+      <xs:element name="orderNumber" type="xs:string"/>
+      <xs:element name="status" type="OrderStatusType"/>
+      <xs:element name="customer" type="CustomerType"/>
+      <xs:element name="items" type="OrderItemsType"/>
+      <xs:element name="subtotal" type="xs:decimal"/>
+      <xs:element name="shipping" type="xs:decimal"/>
+      <xs:element name="total" type="xs:decimal"/>
+      <xs:element name="notes" type="xs:string" minOccurs="0"/>
+      <xs:element name="history" type="OrderHistoryType"/>
+      <xs:element name="createdAt" type="xs:dateTime"/>
+      <xs:element name="updatedAt" type="xs:dateTime"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="CustomerType">
+    <xs:sequence>
+      <xs:element name="firstName" type="xs:string"/>
+      <xs:element name="lastName" type="xs:string"/>
+      <xs:element name="email" type="xs:string"/>
+      <xs:element name="phone" type="xs:string"/>
+      <xs:element name="address" type="xs:string"/>
+      <xs:element name="city" type="xs:string"/>
+      <xs:element name="postalCode" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="OrderItemsType">
+    <xs:sequence>
+      <xs:element name="item" type="OrderItemType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="OrderItemType">
+    <xs:sequence>
+      <xs:element name="productId" type="xs:string"/>
+      <xs:element name="productName" type="xs:string"/>
+      <xs:element name="quantity" type="xs:integer"/>
+      <xs:element name="unitPrice" type="xs:decimal"/>
+      <xs:element name="total" type="xs:decimal"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="OrderHistoryType">
+    <xs:sequence>
+      <xs:element name="event" type="OrderEventType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="OrderEventType">
+    <xs:sequence>
+      <xs:element name="status" type="OrderStatusType"/>
+      <xs:element name="timestamp" type="xs:dateTime"/>
+      <xs:element name="adminId" type="xs:string" minOccurs="0"/>
+      <xs:element name="note" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="OrderStatusType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="pending"/>
+      <xs:enumeration value="confirmed"/>
+      <xs:enumeration value="processing"/>
+      <xs:enumeration value="shipped"/>
+      <xs:enumeration value="delivered"/>
+      <xs:enumeration value="cancelled"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

@@ -1,0 +1,240 @@
+.page {
+    min-height: 100vh;
+    padding: 120px 0 80px;
+    background-color: var(--color-bg-cream);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.mainTitle {
+    font-family: var(--font-display);
+    font-size: 3rem;
+    color: var(--color-primary-brown);
+    font-weight: 400;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.accountGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+@media (min-width: 1024px) {
+    .accountGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionTitle {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    color: var(--color-primary-gold);
+    margin-bottom: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.formBox {
+    border: 1px solid rgba(182, 141, 81, 0.2);
+    padding: 40px;
+    border-radius: var(--radius-lg);
+    background: var(--color-bg-white);
+    box-shadow: var(--shadow-md);
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.formBox:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-primary-gold);
+}
+
+.formGroup {
+    margin-bottom: 25px;
+}
+
+.label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-dark);
+    margin-bottom: 10px;
+}
+
+.required {
+    color: var(--color-error);
+    margin-left: 2px;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 18px;
+    border: 1px solid #E5E1DC;
+    border-radius: var(--radius-sm);
+    font-size: 1rem;
+    color: var(--color-text-dark);
+    transition: all 0.2s;
+    background: var(--color-bg-warm);
+}
+
+.input:focus {
+    outline: none;
+    border-color: var(--color-primary-gold);
+    background: var(--color-bg-white);
+    box-shadow: 0 0 0 4px rgba(182, 141, 81, 0.1);
+}
+
+.helperText {
+    font-size: 0.95rem;
+    color: var(--color-text-light);
+    line-height: 1.7;
+    margin-top: 20px;
+    font-family: var(--font-serif);
+    font-style: italic;
+}
+
+.verificationBlock {
+    margin: 25px 0;
+    padding: 15px;
+    border: 1px solid rgba(182, 141, 81, 0.15);
+    background: var(--color-bg-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: var(--radius-sm);
+}
+
+.successBlock {
+    margin: 25px 0;
+    padding: 15px;
+    border: 1px solid rgba(182, 141, 81, 0.15);
+    background: #F0F9F4;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: var(--radius-sm);
+}
+
+.successIcon {
+    width: 24px;
+    height: 24px;
+    background: #10B981;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.successText {
+    font-weight: 600;
+    color: #065F46;
+    font-size: 0.95rem;
+}
+
+.rememberMe {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-text-dark);
+    cursor: pointer;
+}
+
+.submitButton {
+    background: linear-gradient(135deg, var(--color-primary-gold) 0%, var(--color-primary-brown) 100%);
+    color: white;
+    border: none;
+    padding: 14px 40px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.submitButton:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    filter: brightness(1.1);
+}
+
+.lostPassword {
+    display: block;
+    margin-top: 20px;
+    color: var(--color-primary-gold);
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.2s;
+    text-align: center;
+    font-weight: 500;
+}
+
+.lostPassword:hover {
+    color: var(--color-primary-brown);
+    text-decoration: underline;
+}
+
+.policyText {
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    line-height: 1.7;
+    margin-top: 30px;
+}
+
+.policyLink {
+    color: var(--color-primary-gold);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.policyLink:hover {
+    text-decoration: underline;
+    color: var(--color-primary-brown);
+}
+
+.policyLink:hover {
+    text-decoration: underline;
+}
+
+/* Dummy Turnstile styles */
+.cfContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.cfLogo {
+    font-size: 10px;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.cfLinks {
+    font-size: 9px;
+    color: #666;
+    margin-top: 2px;
+}

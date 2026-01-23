@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logs>
+  <log>
+    <id>mkonr3nv75vw8wl2z</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>update</action>
+    <entity>product</entity>
+    <entityId>309</entityId>
+    <details>Mise à jour du produit: Boule Pignon Amande</details>
+    <timestamp>2026-01-21T23:32:20.683Z</timestamp>
+  </log>
+  <log>
+    <id>mkonlloowwzc3boup</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>delete</action>
+    <entity>product</entity>
+    <entityId>406</entityId>
+    <details>Suppression du produit: Mlabbes Pignon</details>
+    <timestamp>2026-01-21T23:28:04.104Z</timestamp>
+  </log>
+  <log>
+    <id>mkonlcpgnn6w9nnqd</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>update</action>
+    <entity>product</entity>
+    <entityId>407</entityId>
+    <details>Mise à jour du produit: Mlabbes Noisette</details>
+    <timestamp>2026-01-21T23:27:52.468Z</timestamp>
+  </log>
+  <log>
+    <id>mkonk5awlje4uswgs</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>update</action>
+    <entity>product</entity>
+    <entityId>308</entityId>
+    <details>Mise à jour du produit: Boule Pignon Aux Pistaches</details>
+    <timestamp>2026-01-21T23:26:56.216Z</timestamp>
+  </log>
+  <log>
+    <id>mkonh92sgxy1z8w4y</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>delete</action>
+    <entity>product</entity>
+    <entityId>675</entityId>
+    <details>Suppression du produit: Cerise</details>
+    <timestamp>2026-01-21T23:24:41.140Z</timestamp>
+  </log>
+  <log>
+    <id>mkonfmseua5ctootp</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>update</action>
+    <entity>product</entity>
+    <entityId>182</entityId>
+    <details>Mise à jour du produit: Dattes Farcies Noix</details>
+    <timestamp>2026-01-21T23:23:25.598Z</timestamp>
+  </log>
+  <log>
+    <id>mkonfbpso68d8ywm6</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>update</action>
+    <entity>product</entity>
+    <entityId>181</entityId>
+    <details>Mise à jour du produit: Dattes Farcies Amande</details>
+    <timestamp>2026-01-21T23:23:11.248Z</timestamp>
+  </log>
+  <log>
+    <id>mkonartkvnkvaz52m</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>update</action>
+    <entity>product</entity>
+    <entityId>166</entityId>
+    <details>Mise à jour du produit: Samsa Pistache</details>
+    <timestamp>2026-01-21T23:19:38.840Z</timestamp>
+  </log>
+  <log>
+    <id>mkon7kb4axibtch1q</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>update</action>
+    <entity>product</entity>
+    <entityId>120</entityId>
+    <details>Mise à jour du produit: Baklawa Amande</details>
+    <timestamp>2026-01-21T23:17:09.137Z</timestamp>
+  </log>
+  <log>
+    <id>mkon772v2k1saw723</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>update</action>
+    <entity>product</entity>
+    <entityId>120</entityId>
+    <details>Mise à jour du produit: Baklawa Amande (B)</details>
+    <timestamp>2026-01-21T23:16:51.991Z</timestamp>
+  </log>
+  <log>
+    <id>mkohcqhcwk8vbx5ed</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>update</action>
+    <entity>product</entity>
+    <entityId>102</entityId>
+    <details>Mise à jour du produit: Baklawa Bourgeoise</details>
+    <timestamp>2026-01-21T20:33:12.720Z</timestamp>
+  </log>
+  <log>
+    <id>mkoh9e2zlytgw4tx7</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>update</action>
+    <entity>product</entity>
+    <entityId>101</entityId>
+    <details>Mise à jour du produit: Baklawa Fekia</details>
+    <timestamp>2026-01-21T20:30:36.683Z</timestamp>
+  </log>
+  <log>
+    <id>mkogjwckc2xvifl37</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>login</action>
+    <entity>session</entity>
+    <details>Connexion réussie</details>
+    <ipAddress>::1</ipAddress>
+    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0</userAgent>
+    <timestamp>2026-01-21T20:10:47.300Z</timestamp>
+  </log>
+  <log>
+    <id>mkofee2hzgt00x8hs</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>login</action>
+    <entity>session</entity>
+    <details>Connexion réussie</details>
+    <ipAddress>::1</ipAddress>
+    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0</userAgent>
+    <timestamp>2026-01-21T19:38:30.713Z</timestamp>
+  </log>
+  <log>
+    <id>mkof4zhdspsjg21qg</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>login</action>
+    <entity>session</entity>
+    <details>Connexion réussie</details>
+    <ipAddress>::1</ipAddress>
+    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0</userAgent>
+    <timestamp>2026-01-21T19:31:11.905Z</timestamp>
+  </log>
+  <log>
+    <id>mkoe7yzhagca99bmj</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>login</action>
+    <entity>session</entity>
+    <details>Connexion réussie (Self-Healed)</details>
+    <ipAddress>::1</ipAddress>
+    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0</userAgent>
+    <timestamp>2026-01-21T19:05:31.613Z</timestamp>
+  </log>
+</logs>

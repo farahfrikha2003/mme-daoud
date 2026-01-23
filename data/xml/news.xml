@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<news>
+  <article>
+    <id>art_1</id>
+    <slug>ouverture-nouvelle-boutique-lac-2</slug>
+    <title>Ouverture de notre nouvelle boutique au Lac 2</title>
+    <excerpt>Nous sommes ravis de vous annoncer l&#39;ouverture de notre nouveau point de vente au Lac 2. Venez découvrir un espace dédié à la gourmandise.</excerpt>
+    <content>Nous continuons notre expansion pour être toujours plus proches de vous. Notre nouvelle boutique au Lac 2 a été conçue comme un écrin de luxe pour nos créations. Vous y retrouverez l&#39;ensemble de notre collection permanente ainsi que des exclusivités propres à ce nouveau point de vente. Toute l&#39;équipe de Mme Daoud vous attend pour une dégustation inoubliable.</content>
+    <image>/uploads/news/boutique-lac2.jpg</image>
+    <date>2026-01-15T10:00:00Z</date>
+    <author>Direction Mme Daoud</author>
+    <category>Événement</category>
+    <isActive>true</isActive>
+    <tags>
+      <tag>Ouverture</tag>
+      <tag>Expansion</tag>
+      <tag>Lac 2</tag>
+    </tags>
+  </article>
+  <article>
+    <id>art_2</id>
+    <slug>preparation-collection-ramadan-2026</slug>
+    <title>Préparation de la Collection Ramadan 2026</title>
+    <excerpt>Les préparatifs pour le mois saint ont commencé dans nos ateliers. Découvrez en avant-première les saveurs qui accompagneront vos soirées.</excerpt>
+    <content>Chez Mme Daoud, le Ramadan est une période sacrée où la tradition s&#39;exprime avec le plus de ferveur. Nos maîtres pâtissiers travaillent actuellement sur des recettes ancestrales revisitées avec une touche de modernité. Zrir, Samsa, et Baklawa seront au rendez-vous pour sublimer vos tables de rupture de jeûne. Restez connectés pour l&#39;ouverture des pré-commandes.</content>
+    <image>/uploads/news/ramadan-preparations.jpg</image>
+    <date>2026-01-20T14:30:00Z</date>
+    <author>Chef Pâtissier</author>
+    <category>Collections</category>
+    <isActive>true</isActive>
+    <tags>
+      <tag>Ramadan</tag>
+      <tag>Tradition</tag>
+      <tag>Atelier</tag>
+    </tags>
+  </article>
+  <article>
+    <id>art_3</id>
+    <slug>participation-salon-culinaire-international</slug>
+    <title>Mme Daoud au Salon Culinaire International</title>
+    <excerpt>Nous avons eu l&#39;honneur de représenter la pâtisserie tunisienne lors du dernier Salon Culinaire International à Paris.</excerpt>
+    <content>C&#39;est avec une grande fierté que Mme Daoud a porté haut les couleurs de la Tunisie à l&#39;échelle internationale. Nos produits ont suscité l&#39;admiration des plus grands chefs mondiaux. Cette reconnaissance internationale confirme notre engagement pour l&#39;excellence et la préservation de notre patrimoine culinaire.</content>
+    <image>/uploads/news/salon-paris.jpg</image>
+    <date>2026-01-05T09:00:00Z</date>
+    <author>Service Communication</author>
+    <category>Actualité</category>
+    <isActive>true</isActive>
+    <tags>
+      <tag>International</tag>
+      <tag>Salon</tag>
+      <tag>Gastronomie</tag>
+    </tags>
+  </article>
+</news>

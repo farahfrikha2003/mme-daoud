@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+  <order>
+    <id>ord_1</id>
+    <orderNumber>CMD-20260122-8492</orderNumber>
+    <status>pending</status>
+    <customer>
+      <firstName>Amine</firstName>
+      <lastName>Trabelsi</lastName>
+      <email>amine.t@gmail.com</email>
+      <phone>22 444 555</phone>
+      <address>Sidi Bou Said</address>
+      <city>Tunis</city>
+      <postalCode>2026</postalCode>
+    </customer>
+    <items>
+      <item>
+        <productId>101</productId>
+        <productName>Baklawa Fekia</productName>
+        <quantity>2</quantity>
+        <unitPrice>76.00</unitPrice>
+        <total>152.00</total>
+      </item>
+      <item>
+        <productId>104</productId>
+        <productName>Baklawa Pistache</productName>
+        <quantity>1</quantity>
+        <unitPrice>160.00</unitPrice>
+        <total>160.00</total>
+      </item>
+    </items>
+    <subtotal>312.00</subtotal>
+    <shipping>10.00</shipping>
+    <total>322.00</total>
+    <history>
+      <event>
+        <status>pending</status>
+        <timestamp>2026-01-22T09:30:00Z</timestamp>
+        <note>Commande créée</note>
+      </event>
+    </history>
+    <createdAt>2026-01-22T09:30:00Z</createdAt>
+    <updatedAt>2026-01-22T09:30:00Z</updatedAt>
+  </order>
+  <order>
+    <id>ord_2</id>
+    <orderNumber>CMD-20260121-1234</orderNumber>
+    <status>delivered</status>
+    <customer>
+      <firstName>Lina</firstName>
+      <lastName>Gharbi</lastName>
+      <email>lina.g@outlook.com</email>
+      <phone>55 999 888</phone>
+      <address>Ennasr 2</address>
+      <city>Ariana</city>
+      <postalCode>2037</postalCode>
+    </customer>
+    <items>
+      <item>
+        <productId>102</productId>
+        <productName>Baklawa Bourgeoise</productName>
+        <quantity>1</quantity>
+        <unitPrice>98.00</unitPrice>
+        <total>98.00</total>
+      </item>
+    </items>
+    <subtotal>98.00</subtotal>
+    <shipping>8.00</shipping>
+    <total>106.00</total>
+    <history>
+      <event>
+        <status>pending</status>
+        <timestamp>2026-01-21T14:20:00Z</timestamp>
+        <note>Commande créée</note>
+      </event>
+      <event>
+        <status>delivered</status>
+        <timestamp>2026-01-21T18:00:00Z</timestamp>
+        <note>Livraison effectuée</note>
+      </event>
+    </history>
+    <createdAt>2026-01-21T14:20:00Z</createdAt>
+    <updatedAt>2026-01-21T18:00:00Z</updatedAt>
+  </order>
+  <order>
+    <id>ord_3</id>
+    <orderNumber>CMD-20260120-4567</orderNumber>
+    <status>delivered</status>
+    <customer>
+      <firstName>Youssef</firstName>
+      <lastName>Ben Salem</lastName>
+      <email>youssef.bs@gmail.com</email>
+      <phone>98 777 666</phone>
+      <address>Gammarth</address>
+      <city>La Marsa</city>
+      <postalCode>2070</postalCode>
+    </customer>
+    <items>
+      <item>
+        <productId>104</productId>
+        <productName>Baklawa Pistache</productName>
+        <quantity>3</quantity>
+        <unitPrice>160.00</unitPrice>
+        <total>480.00</total>
+      </item>
+    </items>
+    <subtotal>480.00</subtotal>
+    <shipping>12.00</shipping>
+    <total>492.00</total>
+    <history>
+      <event>
+        <status>delivered</status>
+        <timestamp>2026-01-20T11:00:00Z</timestamp>
+      </event>
+    </history>
+    <createdAt>2026-01-20T08:00:00Z</createdAt>
+    <updatedAt>2026-01-20T11:00:00Z</updatedAt>
+  </order>
+  <order>
+    <id>ord_4</id>
+    <orderNumber>CMD-20260119-7890</orderNumber>
+    <status>cancelled</status>
+    <customer>
+      <firstName>Sami</firstName>
+      <lastName>Jendoubi</lastName>
+      <email>sami.j@topnet.tn</email>
+      <phone>20 123 456</phone>
+      <address>Menzah 9</address>
+      <city>Tunis</city>
+      <postalCode>1013</postalCode>
+    </customer>
+    <items>
+      <item>
+        <productId>101</productId>
+        <productName>Baklawa Fekia</productName>
+        <quantity>1</quantity>
+        <unitPrice>76.00</unitPrice>
+        <total>76.00</total>
+      </item>
+    </items>
+    <subtotal>76.00</subtotal>
+    <shipping>7.00</shipping>
+    <total>83.00</total>
+    <createdAt>2026-01-19T10:15:00Z</createdAt>
+    <updatedAt>2026-01-19T11:00:00Z</updatedAt>
+  </order>
+  <order>
+    <id>ord_5</id>
+    <orderNumber>CMD-20260118-2233</orderNumber>
+    <status>delivered</status>
+    <customer>
+      <firstName>Maya</firstName>
+      <lastName>Rekik</lastName>
+      <email>maya.r@gmail.com</email>
+      <phone>44 555 666</phone>
+      <address>Lac 1</address>
+      <city>Tunis</city>
+      <postalCode>1053</postalCode>
+    </customer>
+    <items>
+      <item>
+        <productId>104</productId>
+        <productName>Baklawa Pistache</productName>
+        <quantity>2</quantity>
+        <unitPrice>160.00</unitPrice>
+        <total>320.00</total>
+      </item>
+      <item>
+        <productId>102</productId>
+        <productName>Baklawa Bourgeoise</productName>
+        <quantity>2</quantity>
+        <unitPrice>98.00</unitPrice>
+        <total>196.00</total>
+      </item>
+    </items>
+    <subtotal>516.00</subtotal>
+    <shipping>10.00</shipping>
+    <total>526.00</total>
+    <createdAt>2026-01-18T16:45:00Z</createdAt>
+    <updatedAt>2026-01-18T19:30:00Z</updatedAt>
+  </order>
+  <order>
+    <id>ord_6</id>
+    <orderNumber>CMD-20260117-9911</orderNumber>
+    <status>delivered</status>
+    <customer>
+      <firstName>Karim</firstName>
+      <lastName>Zribi</lastName>
+      <email>karim.z@gmail.com</email>
+      <phone>50 888 222</phone>
+      <address>Hammam Lif</address>
+      <city>Ben Arous</city>
+      <postalCode>2050</postalCode>
+    </customer>
+    <items>
+      <item>
+        <productId>103</productId>
+        <productName>Baklawa Noix</productName>
+        <quantity>5</quantity>
+        <unitPrice>82.00</unitPrice>
+        <total>410.00</total>
+      </item>
+    </items>
+    <subtotal>410.00</subtotal>
+    <shipping>15.00</shipping>
+    <total>425.00</total>
+    <createdAt>2026-01-17T09:00:00Z</createdAt>
+    <updatedAt>2026-01-17T14:00:00Z</updatedAt>
+  </order>
+  <order>
+    <id>ord_7</id>
+    <orderNumber>CMD-20260116-3344</orderNumber>
+    <status>delivered</status>
+    <customer>
+      <firstName>Sonia</firstName>
+      <lastName>Louati</lastName>
+      <email>sonia.l@gmail.com</email>
+      <phone>21 333 444</phone>
+      <address>Centre Urbain Nord</address>
+      <city>Tunis</city>
+      <postalCode>1082</postalCode>
+    </customer>
+    <items>
+      <item>
+        <productId>104</productId>
+        <productName>Baklawa Pistache</productName>
+        <quantity>1</quantity>
+        <unitPrice>160.00</unitPrice>
+        <total>160.00</total>
+      </item>
+    </items>
+    <subtotal>160.00</subtotal>
+    <shipping>5.00</shipping>
+    <total>165.00</total>
+    <createdAt>2026-01-16T11:30:00Z</createdAt>
+    <updatedAt>2026-01-16T13:00:00Z</updatedAt>
+  </order>
+</orders>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:element name="admins">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="admin" type="AdminType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="AdminType">
+    <xs:sequence>
+      <xs:element name="id" type="xs:string"/>
+      <xs:element name="username" type="xs:string"/>
+      <xs:element name="email" type="xs:string"/>
+      <xs:element name="passwordHash" type="xs:string"/>
+      <xs:element name="role" type="RoleType"/>
+      <xs:element name="firstName" type="xs:string" minOccurs="0"/>
+      <xs:element name="lastName" type="xs:string" minOccurs="0"/>
+      <xs:element name="isActive" type="xs:boolean"/>
+      <xs:element name="createdAt" type="xs:dateTime"/>
+      <xs:element name="updatedAt" type="xs:dateTime"/>
+      <xs:element name="lastLogin" type="xs:dateTime" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="RoleType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="super_admin"/>
+      <xs:enumeration value="admin"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

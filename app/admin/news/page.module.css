@@ -1,0 +1,225 @@
+.page {
+    padding: 24px;
+}
+
+.headerActions {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 24px;
+}
+
+.addButton {
+    background-color: var(--color-primary-gold);
+    color: white;
+    padding: 10px 20px;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.addButton:hover {
+    background-color: var(--color-primary-brown);
+    transform: translateY(-2px);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.newsCard {
+    background: white;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageWrapper {
+    height: 180px;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.cardImages {
+    object-fit: cover;
+}
+
+.cardContent {
+    padding: 20px;
+    flex: 1;
+}
+
+.cardTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.category {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-primary-gold);
+    background: rgba(182, 141, 81, 0.1);
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.statusActive {
+    background-color: #DEF7EC;
+    color: #03543F;
+}
+
+.statusInactive {
+    background-color: #FDE8E8;
+    color: #9B1C1C;
+}
+
+.newsTitle {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.excerpt {
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.cardFooter {
+    padding: 15px 20px;
+    border-top: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.editButton,
+.deleteButton {
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    background: white;
+}
+
+.editButton:hover {
+    background: #f8f9fa;
+    border-color: var(--color-primary-gold);
+    color: var(--color-primary-gold);
+}
+
+.deleteButton:hover {
+    background: #fff5f5;
+    border-color: #f87171;
+    color: #dc2626;
+}
+
+/* Modal and Form Styles */
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.modalContent {
+    background: white;
+    width: 100%;
+    max-width: 700px;
+    max-height: 90vh;
+    border-radius: var(--radius-lg);
+    padding: 30px;
+    overflow-y: auto;
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.modalTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.input,
+.textarea,
+.select {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.textarea {
+    min-height: 100px;
+}
+
+.modalFooter {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.cancelButton {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background: white;
+    cursor: pointer;
+}
+
+.saveButton {
+    padding: 10px 25px;
+    border-radius: 6px;
+    background: var(--color-primary-gold);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}

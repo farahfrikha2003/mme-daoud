@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product>
+    <id>101</id>
+    <slug>baklawa-fekia</slug>
+    <name>Baklawa Fekia</name>
+    <description>Baklawa aux fruits secs variés</description>
+    <composition>Fruits secs, miel</composition>
+    <conservation>Lieu sec</conservation>
+    <price>76</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Baklawa</category>
+    <categorySlug>baklawa</categorySlug>
+    <images>
+      <image>/uploads/products/baklawa-fekia.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>45</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2026-01-21T20:30:36.315Z</updatedAt>
+  </product>
+  <product>
+    <id>102</id>
+    <slug>baklawa-bourgeoise</slug>
+    <name>Baklawa Bourgeoise</name>
+    <description>Baklawa de luxe</description>
+    <composition>Fruits secs nobles, miel</composition>
+    <conservation>Lieu sec</conservation>
+    <price>98</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Baklawa</category>
+    <categorySlug>baklawa</categorySlug>
+    <images>
+      <image>/uploads/products/baklawa-bourgeoise.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>true</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>50</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2026-01-21T20:33:12.712Z</updatedAt>
+  </product>
+  <product>
+    <id>103</id>
+    <slug>baklawa-noix</slug>
+    <name>Baklawa Noix</name>
+    <description>Baklawa aux noix</description>
+    <composition>Noix, miel</composition>
+    <conservation>Lieu sec</conservation>
+    <price>82</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Baklawa</category>
+    <categorySlug>baklawa</categorySlug>
+    <images>
+      <image>/uploads/products/baklawa-noix.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>65</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>104</id>
+    <slug>baklawa-pistache</slug>
+    <name>Baklawa Pistache</name>
+    <description>Baklawa à la pistache</description>
+    <composition>Pistache, miel</composition>
+    <conservation>Lieu sec</conservation>
+    <price>160</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Baklawa</category>
+    <categorySlug>baklawa</categorySlug>
+    <images>
+      <image>/uploads/products/baklawa-pistache.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>true</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>55</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>105</id>
+    <slug>baklawa-adliya</slug>
+    <name>Baklawa Adliya</name>
+    <description>Baklawa Adliya</description>
+    <composition>Fruits secs, miel</composition>
+    <conservation>Lieu sec</conservation>
+    <price>98</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Baklawa</category>
+    <categorySlug>baklawa</categorySlug>
+    <images>
+      <image>/uploads/products/baklawa-adliya.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>50</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>106</id>
+    <slug>baklawa-mharoucha</slug>
+    <name>Baklawa Mharoucha</name>
+    <description>Baklawa Mharoucha</description>
+    <composition>Amandes concassées, miel</composition>
+    <conservation>Lieu sec</conservation>
+    <price>98</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Baklawa</category>
+    <categorySlug>baklawa</categorySlug>
+    <images>
+      <image>/uploads/products/baklawa-mharoucha.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>50</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>107</id>
+    <slug>baklawa-pignon</slug>
+    <name>Baklawa Pignon</name>
+    <description>Baklawa aux pignons</description>
+    <composition>Pignons, miel</composition>
+    <conservation>Lieu sec</conservation>
+    <price>186</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Baklawa</category>
+    <categorySlug>baklawa</categorySlug>
+    <images>
+      <image>/uploads/products/baklawa-pignon.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>true</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>60</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>120</id>
+    <slug>baklawa-amande</slug>
+    <name>Baklawa Amande</name>
+    <description>Baklawa Amande (Variante)</description>
+    <composition>Amandes, miel</composition>
+    <conservation>Lieu sec</conservation>
+    <price>67</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Baklawa</category>
+    <categorySlug>baklawa</categorySlug>
+    <images>
+      <image>/uploads/products/1769037410075-baklawa-amande.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>45</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2026-01-21T23:17:09.123Z</updatedAt>
+  </product>
+  <product>
+    <id>121</id>
+    <slug>baklawa-amande-achek</slug>
+    <name>Baklawa Amande Achek</name>
+    <description>Baklawa Amande Achek</description>
+    <composition>Amande, miel</composition>
+    <conservation>Lieu sec</conservation>
+    <price>84</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Baklawa</category>
+    <categorySlug>baklawa</categorySlug>
+    <images>
+      <image>/uploads/products/baklawa-amande-achek.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>50</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>122</id>
+    <slug>baklawa-noisette</slug>
+    <name>Baklawa Noisette</name>
+    <description>Baklawa aux noisettes</description>
+    <composition>Noisette, miel</composition>
+    <conservation>Lieu sec</conservation>
+    <price>72</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Baklawa</category>
+    <categorySlug>baklawa</categorySlug>
+    <images>
+      <image>/uploads/products/baklawa-noisette.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>50</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>125</id>
+    <slug>baklawa-zgougou</slug>
+    <name>Baklawa Zgougou</name>
+    <description>Baklawa au pin d&#39;Alep</description>
+    <composition>Zgougou, miel</composition>
+    <conservation>Lieu sec</conservation>
+    <price>66</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Baklawa</category>
+    <categorySlug>baklawa</categorySlug>
+    <images>
+      <image>/images/products/baklawa-default.png</image>
+    </images>
+    <isNew>true</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>true</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>45</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>133</id>
+    <slug>srayer-fekia</slug>
+    <name>Srayer Fekia</name>
+    <description>Petite pâtisserie fekia</description>
+    <composition>Fruits secs</composition>
+    <conservation>Sec</conservation>
+    <price>90</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Fekia</category>
+    <categorySlug>fekia</categorySlug>
+    <images>
+      <image>/uploads/products/srayer-fekia.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>40</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>134</id>
+    <slug>baklawa-el-bey</slug>
+    <name>Baklawa El Bey</name>
+    <description>Baklawa El Bey tricolore</description>
+    <composition>Pistache, amande, noisette</composition>
+    <conservation>Frais</conservation>
+    <price>94</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Fekia</category>
+    <categorySlug>fekia</categorySlug>
+    <images>
+      <image>/uploads/products/baklawa-el-bey.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>true</isFeatured>
+    <isGlutenFree>true</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>60</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>135</id>
+    <slug>kaak-warka-amande</slug>
+    <name>Kaak Warka Amande</name>
+    <description>Kaak Warka à l&#39;amande</description>
+    <composition>Amande, eau de rose</composition>
+    <conservation>Frais</conservation>
+    <price>74</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Fekia</category>
+    <categorySlug>fekia</categorySlug>
+    <images>
+      <image>/uploads/products/kaak-warka-amande.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>true</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>50</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>136</id>
+    <slug>kaak-warka-nesri</slug>
+    <name>Kaak Warka Nesri</name>
+    <description>Kaak Warka à l&#39;églantine</description>
+    <composition>Amande, nesri</composition>
+    <conservation>Frais</conservation>
+    <price>120</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Fekia</category>
+    <categorySlug>fekia</categorySlug>
+    <images>
+      <image>/images/products/kaak-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>50</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>140</id>
+    <slug>twajen-amande</slug>
+    <name>Twajen Amande</name>
+    <description>Twajen aux amandes</description>
+    <composition>Amande</composition>
+    <conservation>Frais</conservation>
+    <price>70</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Fekia</category>
+    <categorySlug>fekia</categorySlug>
+    <images>
+      <image>/uploads/products/twajen-amande.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>true</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>65</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>148</id>
+    <slug>rocher</slug>
+    <name>Rocher</name>
+    <description>Rocher aux fruits secs</description>
+    <composition>Amande, noisette</composition>
+    <conservation>Sec</conservation>
+    <price>93</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Fekia</category>
+    <categorySlug>fekia</categorySlug>
+    <images>
+      <image>/uploads/products/rocher.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>60</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>165</id>
+    <slug>samsa-noisette</slug>
+    <name>Samsa Noisette</name>
+    <description>Samsa traditionnelle noisette</description>
+    <composition>Noisette, feuille de brik, miel</composition>
+    <conservation>Sec</conservation>
+    <price>89</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Fekia</category>
+    <categorySlug>fekia</categorySlug>
+    <images>
+      <image>/uploads/products/samsa-noisette.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>55</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>166</id>
+    <slug>samsa-pistache</slug>
+    <name>Samsa Pistache</name>
+    <description>Samsa traditionnelle pistache</description>
+    <composition>Pistache, feuille de brik, miel</composition>
+    <conservation>Sec</conservation>
+    <price>170</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Fekia</category>
+    <categorySlug>fekia</categorySlug>
+    <images>
+      <image>/uploads/products/1769037571922-samsa-pistache.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>true</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>55</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2026-01-21T23:19:38.830Z</updatedAt>
+  </product>
+  <product>
+    <id>180</id>
+    <slug>dattes-farcies-noisette</slug>
+    <name>Dattes Farcies Noisette</name>
+    <description>Dattes fourrées à la noisette</description>
+    <composition>Dattes, pâte de noisette</composition>
+    <conservation>Frais</conservation>
+    <price>94</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Fekia</category>
+    <categorySlug>fekia</categorySlug>
+    <images>
+      <image>/uploads/products/dattes-farcies-noisette.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>true</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>55</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>181</id>
+    <slug>dattes-farcies-amande</slug>
+    <name>Dattes Farcies Amande</name>
+    <description>Dattes fourrées à l&#39;amande</description>
+    <composition>Dattes, pâte d&#39;amande</composition>
+    <conservation>Frais</conservation>
+    <price>84</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Fekia</category>
+    <categorySlug>fekia</categorySlug>
+    <images>
+      <image>/uploads/products/1769037790117-dattes-farcies-amande.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>true</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>55</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2026-01-21T23:23:11.239Z</updatedAt>
+  </product>
+  <product>
+    <id>182</id>
+    <slug>dattes-farcies-noix</slug>
+    <name>Dattes Farcies Noix</name>
+    <description>Dattes fourrées aux noix</description>
+    <composition>Dattes, pâte de noix</composition>
+    <conservation>Frais</conservation>
+    <price>94</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Fekia</category>
+    <categorySlug>fekia</categorySlug>
+    <images>
+      <image>/uploads/products/1769037804937-dattes-farcies-amande.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>true</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>55</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2026-01-21T23:23:25.591Z</updatedAt>
+  </product>
+  <product>
+    <id>188</id>
+    <slug>blanche-neige-noix</slug>
+    <name>Blanche Neige Noix</name>
+    <description>Boule blanche aux noix</description>
+    <composition>Noix, enrobage blanc</composition>
+    <conservation>Frais</conservation>
+    <price>180</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Fekia</category>
+    <categorySlug>fekia</categorySlug>
+    <images>
+      <image>/images/products/baklawa-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>50</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>317</id>
+    <slug>bjawia-noix-caramelisee</slug>
+    <name>Bjawia Noix Caramélisée</name>
+    <description>Bjawia avec noix et caramel</description>
+    <composition>Noix, caramel</composition>
+    <conservation>Sec</conservation>
+    <price>120</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Fekia</category>
+    <categorySlug>fekia</categorySlug>
+    <images>
+      <image>/uploads/products/bjawia-noix-caramelisee.jpg</image>
+    </images>
+    <isNew>true</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>60</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>400</id>
+    <slug>mlabbes-amande</slug>
+    <name>Mlabbes Amande</name>
+    <description>Mlabbes classique amande</description>
+    <composition>Amande, glaçage</composition>
+    <conservation>Sec</conservation>
+    <price>80</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Mlabbes</category>
+    <categorySlug>mlabbes</categorySlug>
+    <images>
+      <image>/uploads/products/mlabbes-amande.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>true</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>60</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>407</id>
+    <slug>mlabbes-noisette</slug>
+    <name>Mlabbes Noisette</name>
+    <description>Mlabbes à la noisette</description>
+    <composition>Noisette, glaçage</composition>
+    <conservation>Sec</conservation>
+    <price>110</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Mlabbes</category>
+    <categorySlug>mlabbes</categorySlug>
+    <images>
+      <image>/uploads/products/1769038071770-mlabbes-noisette.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>60</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2026-01-21T23:27:52.461Z</updatedAt>
+  </product>
+  <product>
+    <id>451</id>
+    <slug>calisson-amande</slug>
+    <name>Calisson Amande</name>
+    <description>Calisson tendre à l&#39;amande</description>
+    <composition>Amande, sucre, melon confit</composition>
+    <conservation>Sec</conservation>
+    <price>96</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Calisson</category>
+    <categorySlug>calisson</categorySlug>
+    <images>
+      <image>/uploads/products/calisson-amande.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>true</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>70</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>452</id>
+    <slug>calisson-pistache</slug>
+    <name>Calisson Pistache</name>
+    <description>Calisson à la pistache</description>
+    <composition>Pistache, sucre</composition>
+    <conservation>Sec</conservation>
+    <price>190</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Calisson</category>
+    <categorySlug>calisson</categorySlug>
+    <images>
+      <image>/uploads/products/calisson-pistache.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>true</isFeatured>
+    <isGlutenFree>true</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>70</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>304</id>
+    <slug>doigt-nougat-pistache</slug>
+    <name>Doigt Nougat Pistache</name>
+    <description>Nougat fin roulé pistache</description>
+    <composition>Nougat, pistache</composition>
+    <conservation>Sec</conservation>
+    <price>160</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Pistache</category>
+    <categorySlug>pistache</categorySlug>
+    <images>
+      <image>/images/products/pistache-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>70</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>308</id>
+    <slug>boule-pignon-aux-pistaches</slug>
+    <name>Boule Pignon Aux Pistaches</name>
+    <description>Boule pignon coeur pistache</description>
+    <composition>Pignon, pistache</composition>
+    <conservation>Frais</conservation>
+    <price>250</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Pistache</category>
+    <categorySlug>pistache</categorySlug>
+    <images>
+      <image>/uploads/products/1769038015430-boule-pignon-pistache.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>true</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>65</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2026-01-21T23:26:56.206Z</updatedAt>
+  </product>
+  <product>
+    <id>309</id>
+    <slug>boule-pignon-amande</slug>
+    <name>Boule Pignon Amande</name>
+    <description>Boule pignon coeur noisette</description>
+    <composition>Pignon, noisette</composition>
+    <conservation>Frais</conservation>
+    <price>160</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Pistache</category>
+    <categorySlug>pistache</categorySlug>
+    <images>
+      <image>/uploads/products/1769038339526-boule-pignon-amande.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>65</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2026-01-21T23:32:20.669Z</updatedAt>
+  </product>
+  <product>
+    <id>310</id>
+    <slug>jumeaux-pistache</slug>
+    <name>Jumeaux Pistache</name>
+    <description>Duo de pistache</description>
+    <composition>Pistache</composition>
+    <conservation>Frais</conservation>
+    <price>170</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Pistache</category>
+    <categorySlug>pistache</categorySlug>
+    <images>
+      <image>/uploads/products/jumeaux-pistache.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>55</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>315</id>
+    <slug>mlabes-pistache</slug>
+    <name>Mlabes Pistache</name>
+    <description>Mlabes à la pistache</description>
+    <composition>Pistache, glaçage</composition>
+    <conservation>Sec</conservation>
+    <price>180</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Pistache</category>
+    <categorySlug>pistache</categorySlug>
+    <images>
+      <image>/images/products/pistache-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>60</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>316</id>
+    <slug>kaak-amber</slug>
+    <name>Kaak Amber</name>
+    <description>Kaak Amber traditionnel</description>
+    <composition>Amande, pistache</composition>
+    <conservation>Sec</conservation>
+    <price>170</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Pistache</category>
+    <categorySlug>pistache</categorySlug>
+    <images>
+      <image>/images/products/kaak-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>60</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>330</id>
+    <slug>hrisset-pistache</slug>
+    <name>Hrisset Pistache</name>
+    <description>Hrissa sucrée pistache</description>
+    <composition>Pistache, sucre</composition>
+    <conservation>Frais</conservation>
+    <price>170</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Pistache</category>
+    <categorySlug>pistache</categorySlug>
+    <images>
+      <image>/images/products/pistache-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>true</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>60</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>332</id>
+    <slug>bjewia-pistache-pignon</slug>
+    <name>Bjewia Pistache Pignon</name>
+    <description>Bjewia luxe pistache pignon</description>
+    <composition>Pistache, pignon</composition>
+    <conservation>Sec</conservation>
+    <price>240</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Pistache</category>
+    <categorySlug>pistache</categorySlug>
+    <images>
+      <image>/uploads/products/bjewia-pistache-pignon.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>true</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>55</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>334</id>
+    <slug>ochina-pistache</slug>
+    <name>Ochina Pistache</name>
+    <description>Ochina à la pistache</description>
+    <composition>Pistache</composition>
+    <conservation>Frais</conservation>
+    <price>180</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Pistache</category>
+    <categorySlug>pistache</categorySlug>
+    <images>
+      <image>/images/products/pistache-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>65</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>507</id>
+    <slug>charlotte-sesame</slug>
+    <name>Charlotte Sésame</name>
+    <description>Mignardise au sésame</description>
+    <composition>Sésame, miel</composition>
+    <conservation>Sec</conservation>
+    <price>120</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Gamme Mignardises</category>
+    <categorySlug>gamme-mignardises</categorySlug>
+    <images>
+      <image>/images/products/baklawa-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>65</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>511</id>
+    <slug>pyramide</slug>
+    <name>Pyramide</name>
+    <description>Gâteau forme pyramide</description>
+    <composition>Chocolat, fruits secs</composition>
+    <conservation>Frais</conservation>
+    <price>130</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Gamme Mignardises</category>
+    <categorySlug>gamme-mignardises</categorySlug>
+    <images>
+      <image>/images/products/baklawa-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>55</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>532</id>
+    <slug>coquillage</slug>
+    <name>Coquillage</name>
+    <description>Mignardise coquillage</description>
+    <composition>Pâte d&#39;amande</composition>
+    <conservation>Frais</conservation>
+    <price>120</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Gamme Mignardises</category>
+    <categorySlug>gamme-mignardises</categorySlug>
+    <images>
+      <image>/images/products/baklawa-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>55</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>543</id>
+    <slug>buche-pistache-dentelle</slug>
+    <name>Buche Pistache Dentelle</name>
+    <description>Buche fine à la pistache</description>
+    <composition>Pistache, chocolat blanc</composition>
+    <conservation>Frais</conservation>
+    <price>220</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Gamme Mignardises</category>
+    <categorySlug>gamme-mignardises</categorySlug>
+    <images>
+      <image>/images/products/pistache-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>true</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>80</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>597</id>
+    <slug>croque-pistache</slug>
+    <name>Croque Pistache</name>
+    <description>Croquant à la pistache</description>
+    <composition>Pistache, caramel</composition>
+    <conservation>Sec</conservation>
+    <price>200</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Gamme Mignardises</category>
+    <categorySlug>gamme-mignardises</categorySlug>
+    <images>
+      <image>/images/products/pistache-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>55</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>560</id>
+    <slug>boule-de-neige-noisette</slug>
+    <name>Boule de Neige Noisette</name>
+    <description>Boule de neige fourrée noisette</description>
+    <composition>Chocolat blanc, noisette</composition>
+    <conservation>Frais</conservation>
+    <price>120</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Chocolats</category>
+    <categorySlug>chocolats</categorySlug>
+    <images>
+      <image>/images/products/mlabbes-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>60</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>563</id>
+    <slug>boule-de-neige-pistache</slug>
+    <name>Boule de Neige Pistache</name>
+    <description>Chocolat fourré pistache</description>
+    <composition>Chocolat blanc, pistache</composition>
+    <conservation>Frais</conservation>
+    <price>180</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Chocolats</category>
+    <categorySlug>chocolats</categorySlug>
+    <images>
+      <image>/images/products/mlabbes-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>60</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>565</id>
+    <slug>boule-chocolat-noisette</slug>
+    <name>Boule Chocolat Noisette</name>
+    <description>Rocher chocolat noisette</description>
+    <composition>Chocolat au lait, noisette</composition>
+    <conservation>Frais</conservation>
+    <price>98</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Chocolats</category>
+    <categorySlug>chocolats</categorySlug>
+    <images>
+      <image>/images/products/mlabbes-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>55</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>566</id>
+    <slug>boule-chocolat-amande</slug>
+    <name>Boule Chocolat Amande</name>
+    <description>Boule chocolat amande</description>
+    <composition>Chocolat, amande</composition>
+    <conservation>Frais</conservation>
+    <price>86</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Chocolats</category>
+    <categorySlug>chocolats</categorySlug>
+    <images>
+      <image>/images/products/baklawa-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>55</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>567</id>
+    <slug>rocher-chocolat</slug>
+    <name>Rocher</name>
+    <description>Rocher chocolat croustillant</description>
+    <composition>Chocolat, praliné</composition>
+    <conservation>Frais</conservation>
+    <price>98</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Chocolats</category>
+    <categorySlug>chocolats</categorySlug>
+    <images>
+      <image>/uploads/products/rocher.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>55</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>600</id>
+    <slug>laklouka</slug>
+    <name>Laklouka</name>
+    <description>Pâtisserie traditionnelle au sésame</description>
+    <composition>Sésame, pâte</composition>
+    <conservation>Sec</conservation>
+    <price>40</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Hlou Arbi</category>
+    <categorySlug>hlou-arbi</categorySlug>
+    <images>
+      <image>/uploads/products/laklouka.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>45</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>601</id>
+    <slug>ghrayba-poichiche</slug>
+    <name>Ghrayba Poichiche</name>
+    <description>Ghrayba traditionnelle pois chiche</description>
+    <composition>Farine de pois chiche, sucre, beurre</composition>
+    <conservation>Sec</conservation>
+    <price>34</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Hlou Arbi</category>
+    <categorySlug>hlou-arbi</categorySlug>
+    <images>
+      <image>/uploads/products/ghrayba-poichiche.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>true</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>60</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>602</id>
+    <slug>ghrayba-bidha</slug>
+    <name>Ghrayba Bidha</name>
+    <description>Ghrayba blanche traditionnelle</description>
+    <composition>Farine, sucre, beurre</composition>
+    <conservation>Sec</conservation>
+    <price>34</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Hlou Arbi</category>
+    <categorySlug>hlou-arbi</categorySlug>
+    <images>
+      <image>/images/products/baklawa-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>60</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>603</id>
+    <slug>makroudh-sorgho</slug>
+    <name>Makroudh Sorgho</name>
+    <description>Makroudh à la farine de sorgho</description>
+    <composition>Sorgho, dattes, miel</composition>
+    <conservation>Sec</conservation>
+    <price>42</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Hlou Arbi</category>
+    <categorySlug>hlou-arbi</categorySlug>
+    <images>
+      <image>/uploads/products/makroudh-sorgho.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>55</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>605</id>
+    <slug>makroudh</slug>
+    <name>Makroudh</name>
+    <description>Makroudh traditionnel</description>
+    <composition>Semoule, dattes, miel</composition>
+    <conservation>Sec</conservation>
+    <price>30</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Hlou Arbi</category>
+    <categorySlug>hlou-arbi</categorySlug>
+    <images>
+      <image>/uploads/products/1769038478300-makroudh.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>true</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>55</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2026-01-21T23:34:40.005Z</updatedAt>
+  </product>
+  <product>
+    <id>614</id>
+    <slug>bachkoutou</slug>
+    <name>Bachkoutou</name>
+    <description>Biscuit tunisien traditionnel</description>
+    <composition>Farine, oeufs, sucre</composition>
+    <conservation>Sec</conservation>
+    <price>28</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Hlou Arbi</category>
+    <categorySlug>hlou-arbi</categorySlug>
+    <images>
+      <image>/uploads/products/1769038425459-Bachkoutou.jpg</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>60</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2026-01-21T23:33:46.233Z</updatedAt>
+  </product>
+  <product>
+    <id>615</id>
+    <slug>zouza</slug>
+    <name>Zouza</name>
+    <description>Zouza caramel</description>
+    <composition>Biscuit, caramel</composition>
+    <conservation>Sec</conservation>
+    <price>59</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Hlou Arbi</category>
+    <categorySlug>hlou-arbi</categorySlug>
+    <images>
+      <image>/images/products/baklawa-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>55</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+  <product>
+    <id>616</id>
+    <slug>sable</slug>
+    <name>Sablé</name>
+    <description>Biscuits sablés variés</description>
+    <composition>Farine, beurre</composition>
+    <conservation>Sec</conservation>
+    <price>30</price>
+    <priceUnit>Kg</priceUnit>
+    <category>Hlou Arbi</category>
+    <categorySlug>hlou-arbi</categorySlug>
+    <images>
+      <image>/images/products/baklawa-default.png</image>
+    </images>
+    <isNew>false</isNew>
+    <isPromo>false</isPromo>
+    <isFeatured>false</isFeatured>
+    <isGlutenFree>false</isGlutenFree>
+    <isActive>true</isActive>
+    <piecesPerHundredGrams>5</piecesPerHundredGrams>
+    <minQuantity>1</minQuantity>
+    <stock>in_stock</stock>
+    <createdAt>2024-01-21T10:00:00</createdAt>
+    <updatedAt>2024-01-21T10:00:00</updatedAt>
+  </product>
+</products>

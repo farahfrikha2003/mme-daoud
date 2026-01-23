@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categories>
+  <!-- Top Level Categories -->
+  <category>
+    <id>101</id>
+    <slug>idees-de-cadeaux</slug>
+    <name>IDEES DE CADEAUX</name>
+    <order>1</order>
+  </category>
+  <category>
+    <id>102</id>
+    <slug>collection</slug>
+    <name>COLLECTION</name>
+    <order>2</order>
+  </category>
+  <category>
+    <id>1</id>
+    <slug>nouveautes</slug>
+    <name>Nouveautés</name>
+    <order>3</order>
+  </category>
+
+  <!-- COLLECTION Sub-categories -->
+  <category>
+    <id>103</id>
+    <slug>ceremonies</slug>
+    <name>Cérémonies</name>
+    <parentId>102</parentId>
+    <order>1</order>
+  </category>
+  <category>
+    <id>104</id>
+    <slug>naissance</slug>
+    <name>naissance</name>
+    <parentId>103</parentId>
+    <order>1</order>
+  </category>
+  
+  <category>
+    <id>6</id>
+    <slug>chocolats</slug>
+    <name>Chocolats</name>
+    <parentId>102</parentId>
+    <order>2</order>
+  </category>
+  
+  <category>
+    <id>9</id>
+    <slug>les-delices-de-ramadhan</slug>
+    <name>Les délices de Ramadhan</name>
+    <parentId>102</parentId>
+    <order>3</order>
+  </category>
+  
+  <category>
+    <id>7</id>
+    <slug>gamme-sale</slug>
+    <name>Traiteur salés</name>
+    <parentId>102</parentId>
+    <order>4</order>
+  </category>
+  <category>
+    <id>105</id>
+    <slug>sale-congele</slug>
+    <name>Salé congelé</name>
+    <parentId>7</parentId>
+    <order>1</order>
+  </category>
+  
+  <category>
+    <id>4</id>
+    <slug>epicerie-fine</slug>
+    <name>Epicerie fine</name>
+    <parentId>102</parentId>
+    <order>5</order>
+  </category>
+  <category>
+    <id>106</id>
+    <slug>sirop</slug>
+    <name>Sirop</name>
+    <parentId>4</parentId>
+    <order>1</order>
+  </category>
+  <category>
+    <id>107</id>
+    <slug>zrir</slug>
+    <name>Zrir</name>
+    <parentId>4</parentId>
+    <order>2</order>
+  </category>
+  <category>
+    <id>108</id>
+    <slug>pate-a-tartiner</slug>
+    <name>Pâte à tartiner</name>
+    <parentId>4</parentId>
+    <order>3</order>
+  </category>
+  
+  <category>
+    <id>5</id>
+    <slug>macarons</slug>
+    <name>Macarons</name>
+    <parentId>102</parentId>
+    <order>6</order>
+  </category>
+  
+  <category>
+    <id>8</id>
+    <slug>gamme-dietetique</slug>
+    <name>Gamme diététique</name>
+    <parentId>102</parentId>
+    <order>7</order>
+  </category>
+  <category>
+    <id>109</id>
+    <slug>light</slug>
+    <name>light</name>
+    <parentId>8</parentId>
+    <order>1</order>
+  </category>
+  <category>
+    <id>110</id>
+    <slug>healthy</slug>
+    <name>Healthy</name>
+    <parentId>8</parentId>
+    <order>2</order>
+  </category>
+  
+  <category>
+    <id>3</id>
+    <slug>gamme-mignardises</slug>
+    <name>Gamme Mignardises</name>
+    <parentId>102</parentId>
+    <order>8</order>
+  </category>
+  
+  <category>
+    <id>2</id>
+    <slug>patisserie-variee</slug>
+    <name>Pâtisserie Variée</name>
+    <parentId>102</parentId>
+    <order>9</order>
+  </category>
+  
+  <!-- Sub-categories of Pâtisserie Variée -->
+  <category>
+    <id>131</id>
+    <slug>pistache</slug>
+    <name>Pistache</name>
+    <parentId>2</parentId>
+    <order>1</order>
+  </category>
+  <category>
+    <id>132</id>
+    <slug>calisson</slug>
+    <name>Calisson</name>
+    <parentId>2</parentId>
+    <order>2</order>
+  </category>
+  <category>
+    <id>14</id>
+    <slug>hlou-arbi</slug>
+    <name>Hlou arbi</name>
+    <parentId>2</parentId>
+    <order>3</order>
+  </category>
+  <category>
+    <id>11</id>
+    <slug>fekia</slug>
+    <name>Fekia</name>
+    <parentId>2</parentId>
+    <order>4</order>
+  </category>
+  <category>
+    <id>111</id>
+    <slug>mlabbes</slug>
+    <name>Mlabbes</name>
+    <parentId>2</parentId>
+    <order>5</order>
+  </category>
+  <category>
+    <id>112</id>
+    <slug>gamme-fekia</slug>
+    <name>Gamme Fekia</name>
+    <parentId>2</parentId>
+    <order>6</order>
+  </category>
+  <category>
+    <id>10</id>
+    <slug>baklawa</slug>
+    <name>Baklawa</name>
+    <parentId>2</parentId>
+    <order>7</order>
+  </category>
+  <category>
+    <id>113</id>
+    <slug>gamme-mignardises-sub</slug>
+    <name>Gamme Mignardises</name>
+    <parentId>2</parentId>
+    <order>8</order>
+  </category>
+  <category>
+    <id>114</id>
+    <slug>biscuit</slug>
+    <name>Biscuit</name>
+    <parentId>2</parentId>
+    <order>9</order>
+  </category>
+</categories>

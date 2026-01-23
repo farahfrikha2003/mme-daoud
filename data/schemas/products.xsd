@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:element name="products">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="product" type="ProductType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="ProductType">
+    <xs:sequence>
+      <xs:element name="id" type="xs:string"/>
+      <xs:element name="slug" type="xs:string"/>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="description" type="xs:string"/>
+      <xs:element name="composition" type="xs:string"/>
+      <xs:element name="conservation" type="xs:string"/>
+      <xs:element name="price" type="xs:decimal"/>
+      <xs:element name="priceUnit" type="xs:string"/>
+      <xs:element name="category" type="xs:string"/>
+      <xs:element name="categorySlug" type="xs:string"/>
+      <xs:element name="images" type="ImagesType"/>
+      <xs:element name="isNew" type="xs:boolean"/>
+      <xs:element name="isPromo" type="xs:boolean"/>
+      <xs:element name="promoPrice" type="xs:decimal" minOccurs="0"/>
+      <xs:element name="isFeatured" type="xs:boolean"/>
+      <xs:element name="isGlutenFree" type="xs:boolean"/>
+      <xs:element name="isActive" type="xs:boolean"/>
+      <xs:element name="piecesPerHundredGrams" type="xs:integer"/>
+      <xs:element name="minQuantity" type="xs:integer"/>
+      <xs:element name="stock" type="StockType"/>
+      <xs:element name="stockQuantity" type="xs:integer" minOccurs="0"/>
+      <xs:element name="recipe" type="xs:string" minOccurs="0"/>
+      <xs:element name="createdAt" type="xs:dateTime"/>
+      <xs:element name="updatedAt" type="xs:dateTime"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ImagesType">
+    <xs:sequence>
+      <xs:element name="image" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="StockType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="in_stock"/>
+      <xs:enumeration value="low_stock"/>
+      <xs:enumeration value="out_of_stock"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

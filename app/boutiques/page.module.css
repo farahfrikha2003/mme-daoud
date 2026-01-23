@@ -1,0 +1,130 @@
+.page {
+    min-height: 100vh;
+    padding: 120px 0 80px;
+    background-color: var(--color-bg-cream);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.title {
+    font-family: var(--font-display);
+    font-size: 3.5rem;
+    color: var(--color-primary-brown);
+    margin-bottom: 1rem;
+    letter-spacing: 0.05em;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: var(--color-primary-gold);
+    font-family: var(--font-serif);
+    font-style: italic;
+}
+
+.contentGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+@media (min-width: 1024px) {
+    .contentGrid {
+        grid-template-columns: 1fr 1.5fr;
+    }
+}
+
+.infoCard {
+    background: var(--color-bg-white);
+    padding: 40px;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid rgba(182, 141, 81, 0.15);
+}
+
+.shopInfo {
+    margin-bottom: 40px;
+}
+
+.shopName {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    color: var(--color-text-dark);
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--color-bg-light);
+    padding-bottom: 15px;
+}
+
+.infoItem {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    color: var(--color-text-dark);
+}
+
+.icon {
+    color: var(--color-primary-gold);
+    flex-shrink: 0;
+}
+
+.infoText h3 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-text-muted);
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.infoText p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.mapWrapper {
+    height: 500px;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid rgba(182, 141, 81, 0.1);
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.cta {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.directionsButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, var(--color-primary-gold) 0%, var(--color-primary-brown) 100%);
+    color: white;
+    padding: 14px 30px;
+    border-radius: var(--radius-full);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: all 0.3s ease;
+}
+
+.directionsButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(182, 141, 81, 0.3);
+}

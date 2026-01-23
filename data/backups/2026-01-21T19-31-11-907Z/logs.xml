@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logs>
+  <log>
+    <id>mkoe7yzhagca99bmj</id>
+    <adminId>1</adminId>
+    <adminUsername>admin</adminUsername>
+    <action>login</action>
+    <entity>session</entity>
+    <details>Connexion réussie (Self-Healed)</details>
+    <ipAddress>::1</ipAddress>
+    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0</userAgent>
+    <timestamp>2026-01-21T19:05:31.613Z</timestamp>
+  </log>
+</logs>

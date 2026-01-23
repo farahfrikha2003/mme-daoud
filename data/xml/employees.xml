@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+  <employee>
+    <id>emp_1</id>
+    <lastName>Daoud</lastName>
+    <firstName>Ahmed</firstName>
+    <cin>01234567</cin>
+    <phone>22 111 222</phone>
+    <address>12 Rue des Oliviers, Tunis</address>
+    <position>Gérant</position>
+    <amount>2500.00</amount>
+    <hireDate>2020-01-15</hireDate>
+    <isActive>true</isActive>
+    <createdAt>2026-01-22T12:12:00Z</createdAt>
+    <updatedAt>2026-01-22T12:12:00Z</updatedAt>
+  </employee>
+  <employee>
+    <id>emp_2</id>
+    <lastName>Mansour</lastName>
+    <firstName>Sarah</firstName>
+    <cin>08765432</cin>
+    <phone>55 333 444</phone>
+    <address>45 Avenue Habib Bourguiba, Ariana</address>
+    <position>Chef Pâtissière</position>
+    <amount>1800.00</amount>
+    <hireDate>2022-05-10</hireDate>
+    <isActive>true</isActive>
+    <createdAt>2026-01-22T12:12:00Z</createdAt>
+    <updatedAt>2026-01-22T12:12:00Z</updatedAt>
+  </employee>
+  <employee>
+    <id>emp_3</id>
+    <lastName>Ben Ali</lastName>
+    <firstName>Mohamed</firstName>
+    <cin>09871234</cin>
+    <phone>99 888 777</phone>
+    <address>7 Rue de la Liberté, Marsa</address>
+    <position>Livreur</position>
+    <amount>1100.00</amount>
+    <hireDate>2023-09-01</hireDate>
+    <isActive>true</isActive>
+    <createdAt>2026-01-22T12:12:00Z</createdAt>
+    <updatedAt>2026-01-22T12:12:00Z</updatedAt>
+  </employee>
+  <employee>
+    <id>emp_4</id>
+    <lastName>Sassi</lastName>
+    <firstName>Ines</firstName>
+    <cin>12345678</cin>
+    <phone>21 444 666</phone>
+    <address>Cité El Khadra, Tunis</address>
+    <position>Vendeuse Conseil</position>
+    <amount>1250.00</amount>
+    <hireDate>2024-02-01</hireDate>
+    <isActive>true</isActive>
+    <createdAt>2026-01-22T12:18:00Z</createdAt>
+    <updatedAt>2026-01-22T12:18:00Z</updatedAt>
+  </employee>
+  <employee>
+    <id>emp_5</id>
+    <lastName>Kallel</lastName>
+    <firstName>Fares</firstName>
+    <cin>07418529</cin>
+    <phone>52 777 999</phone>
+    <address>Menzah 5, Tunis</address>
+    <position>Aide Pâtissier</position>
+    <amount>950.00</amount>
+    <hireDate>2025-06-15</hireDate>
+    <isActive>true</isActive>
+    <createdAt>2026-01-22T12:18:00Z</createdAt>
+    <updatedAt>2026-01-22T12:18:00Z</updatedAt>
+  </employee>
+  <employee>
+    <id>emp_6</id>
+    <lastName>Ayadi</lastName>
+    <firstName>Mouna</firstName>
+    <cin>08529630</cin>
+    <phone>94 111 333</phone>
+    <address>Radès, Ben Arous</address>
+    <position>Responsable Qualité</position>
+    <amount>2100.00</amount>
+    <hireDate>2021-11-20</hireDate>
+    <isActive>true</isActive>
+    <createdAt>2026-01-22T12:18:00Z</createdAt>
+    <updatedAt>2026-01-22T12:18:00Z</updatedAt>
+  </employee>
+</employees>

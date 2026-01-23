@@ -1,0 +1,336 @@
+.page {
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, var(--color-bg-cream) 0%, var(--color-bg-light) 100%);
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.title {
+    font-family: var(--font-display);
+    font-size: 3rem;
+    color: var(--color-text-dark);
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 4rem;
+    }
+}
+
+.subtitle {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-style: italic;
+    color: var(--color-primary-gold);
+}
+
+/* Intro */
+.intro {
+    padding: 4rem 0;
+    background: var(--color-bg-white);
+}
+
+.introContent {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.introText {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--color-text-light);
+}
+
+.introText strong {
+    color: var(--color-primary-gold);
+}
+
+/* Section Title */
+.sectionTitle {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    color: var(--color-text-dark);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* Timeline */
+.timelineSection {
+    padding: 5rem 0;
+    background: var(--color-bg-cream);
+}
+
+.timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.timelineLine {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg, var(--color-primary-beige), var(--color-primary-gold), var(--color-primary-beige));
+    transform: translateX(-50%);
+}
+
+@media (max-width: 767px) {
+    .timelineLine {
+        left: 20px;
+    }
+}
+
+.timelineItem {
+    position: relative;
+    width: 50%;
+    padding: 0 3rem 3rem;
+}
+
+@media (max-width: 767px) {
+    .timelineItem {
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 0;
+    }
+}
+
+.timelineLeft {
+    left: 0;
+    text-align: right;
+}
+
+.timelineRight {
+    left: 50%;
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+
+    .timelineLeft,
+    .timelineRight {
+        left: 0;
+        text-align: left;
+    }
+}
+
+.timelineItem::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    background: var(--color-primary-gold);
+    border: 3px solid var(--color-bg-white);
+    border-radius: 50%;
+    z-index: 5;
+}
+
+.timelineLeft::before {
+    right: -8px;
+}
+
+.timelineRight::before {
+    left: -8px;
+}
+
+@media (max-width: 767px) {
+    .timelineItem::before {
+        left: 12px;
+        right: auto;
+    }
+}
+
+.timelineContent {
+    background: var(--color-bg-white);
+    padding: 1.5rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+}
+
+.timelineYear {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    color: var(--color-primary-gold);
+}
+
+.timelineTitle {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    color: var(--color-text-dark);
+    margin: 0.5rem 0;
+}
+
+.timelineDescription {
+    font-size: 0.9375rem;
+    color: var(--color-text-light);
+    line-height: 1.6;
+}
+
+/* Heritage */
+.heritage {
+    padding: 5rem 0;
+    background: var(--color-bg-white);
+}
+
+.heritageGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+    .heritageGrid {
+        grid-template-columns: 1fr 1.2fr;
+        gap: 4rem;
+    }
+}
+
+.heritageImage {
+    display: flex;
+    justify-content: center;
+}
+
+.heritagePattern {
+    width: 250px;
+    height: 250px;
+    border-radius: var(--radius-full);
+    background: linear-gradient(135deg, var(--color-primary-beige) 0%, var(--color-primary-gold) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    box-shadow: var(--shadow-lg);
+}
+
+.heritageTitle {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    color: var(--color-text-dark);
+    margin-bottom: 1rem;
+}
+
+.divider {
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, var(--color-primary-gold), var(--color-primary-beige));
+    margin-bottom: 2rem;
+}
+
+.heritageText {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--color-text-light);
+    margin-bottom: 1.25rem;
+}
+
+/* Values */
+.values {
+    padding: 5rem 0;
+    background: var(--color-bg-cream);
+}
+
+.valuesGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .valuesGrid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.valueCard {
+    background: var(--color-bg-white);
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    text-align: center;
+    transition: all var(--transition-normal);
+}
+
+.valueCard:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+}
+
+.valueIcon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-bg-cream);
+    border-radius: var(--radius-full);
+    color: var(--color-primary-gold);
+}
+
+.valueTitle {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    color: var(--color-text-dark);
+    margin-bottom: 0.75rem;
+}
+
+.valueDescription {
+    font-size: 0.9375rem;
+    color: var(--color-text-light);
+    line-height: 1.6;
+}
+
+/* CTA */
+.cta {
+    padding: 5rem 0;
+    background: linear-gradient(135deg, var(--color-primary-gold) 0%, var(--color-primary-brown) 100%);
+    text-align: center;
+}
+
+.ctaTitle {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.ctaText {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2rem;
+}
+
+.ctaButton {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    background: var(--color-bg-white);
+    color: var(--color-primary-gold);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border-radius: var(--radius-full);
+    transition: all var(--transition-normal);
+}
+
+.ctaButton:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+    color: var(--color-primary-brown);
+}

@@ -43,6 +43,13 @@ export default function ProductCard({ product }: ProductCardProps) {
                         fill
                         className={styles.image}
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        onError={(e) => {
+                            // Fallback vers placeholder si l'image échoue
+                            const target = e.target as HTMLImageElement;
+                            if (target.parentElement) {
+                                target.style.display = 'none';
+                            }
+                        }}
                     />
                 ) : (
                     <div

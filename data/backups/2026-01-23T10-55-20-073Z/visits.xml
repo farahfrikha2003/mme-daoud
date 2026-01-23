@@ -1001,46 +1001,4 @@
     <ip>::1</ip>
     <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</userAgent>
   </visit>
-  <visit>
-    <id>mkqrla7rvf2tad9p9</id>
-    <path>/mon-compte</path>
-    <timestamp>2026-01-23T10:55:20.055Z</timestamp>
-    <ip>::1</ip>
-    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</userAgent>
-  </visit>
-  <visit>
-    <id>mkqrm1q13yl1vnhrd</id>
-    <path>/collection</path>
-    <timestamp>2026-01-23T10:55:55.705Z</timestamp>
-    <ip>::1</ip>
-    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</userAgent>
-  </visit>
-  <visit>
-    <id>mkqrm39cwpexw88ir</id>
-    <path>/</path>
-    <timestamp>2026-01-23T10:55:57.696Z</timestamp>
-    <ip>::1</ip>
-    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</userAgent>
-  </visit>
-  <visit>
-    <id>mkqrnqjjsemrukjcj</id>
-    <path>/</path>
-    <timestamp>2026-01-23T10:57:14.527Z</timestamp>
-    <ip>::1</ip>
-    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</userAgent>
-  </visit>
-  <visit>
-    <id>mkqrnsxsryyjj49yv</id>
-    <path>/collection</path>
-    <timestamp>2026-01-23T10:57:17.632Z</timestamp>
-    <ip>::1</ip>
-    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</userAgent>
-  </visit>
-  <visit>
-    <id>mkqrx975kpxf2hwmp</id>
-    <path>/</path>
-    <timestamp>2026-01-23T11:04:38.609Z</timestamp>
-    <ip>::1</ip>
-    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</userAgent>
-  </visit>
 </visits>

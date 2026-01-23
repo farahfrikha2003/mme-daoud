@@ -3,10 +3,11 @@ import { newsService } from '@/lib/services/NewsService';
 
 export async function GET(
     req: NextRequest,
-    { params }: { params: { slug: string } }
+    { params }: { params: Promise<{ slug: string }> }
 ) {
     try {
-        const article = await newsService.getBySlug(params.slug);
+        const { slug } = await params;
+        const article = await newsService.getBySlug(slug);
 
         if (!article) {
             return NextResponse.json({

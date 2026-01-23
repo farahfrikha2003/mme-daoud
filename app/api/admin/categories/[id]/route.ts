@@ -4,14 +4,14 @@ import { categoryService } from '@/lib/xml/CategoryService';
 import { logService } from '@/lib/services/LogService';
 import { verifyToken } from '@/lib/auth/AuthService';
 
-export async function PUT(request: NextRequest, { params }: { params: { id: string } }) {
+export async function PUT(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
     try {
         const cookieStore = await cookies();
         const token = cookieStore.get('admin_token')?.value;
         const payload = token ? await verifyToken(token) : null;
 
         const body = await request.json();
-        const { id } = params;
+        const { id } = await params;
 
         const updated = await categoryService.update(id, body);
 
@@ -44,13 +44,13 @@ export async function PUT(request: NextRequest, { params }: { params: { id: stri
     }
 }
 
-export async function DELETE(request: NextRequest, { params }: { params: { id: string } }) {
+export async function DELETE(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
     try {
         const cookieStore = await cookies();
         const token = cookieStore.get('admin_token')?.value;
         const payload = token ? await verifyToken(token) : null;
 
-        const { id } = params;
+        const { id } = await params;
         const success = await categoryService.delete(id);
 
         if (!success) {

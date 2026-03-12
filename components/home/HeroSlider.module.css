@@ -1,9 +1,16 @@
 .hero {
     position: relative;
     height: 80vh;
-    min-height: 500px;
+    min-height: 400px;
     max-height: 800px;
     overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .hero {
+        min-height: 320px;
+        height: 70vh;
+    }
 }
 
 .slider {

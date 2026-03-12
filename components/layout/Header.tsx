@@ -9,6 +9,7 @@ import { useFavorites } from '@/context/FavoritesContext';
 import styles from './Header.module.css';
 
 const navigation = [
+    { name: 'Accueil', href: '/' },
     { name: 'Collection', href: '/collection' },
     { name: 'Actualités', href: '/actus' },
     { name: 'Cérémonies', href: '/ceremonies' },
@@ -102,15 +103,16 @@ export default function Header() {
                 </div>
             </div>
 
-            {/* Logo centré */}
+            {/* Logo centré - clic vers accueil */}
             <div className={styles.logoSection}>
-                <Link href="/" className={styles.logo}>
+                <Link href="/" className={styles.logo} aria-label="Accueil - Pâtisserie Mme Daoud">
                     <Image
                         src="/logo.png"
-                        alt="Pâtisserie Mme Daoud"
+                        alt="Pâtisserie Mme Daoud - Accueil"
                         width={180}
                         height={120}
                         priority
+                        className={styles.logoImage}
                     />
                 </Link>
             </div>

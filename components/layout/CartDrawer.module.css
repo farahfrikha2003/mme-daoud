@@ -21,6 +21,7 @@
     bottom: 0;
     width: 100%;
     max-width: 420px;
+    padding-right: env(safe-area-inset-right);
     background: var(--color-bg-white);
     z-index: 250;
     transform: translateX(100%);

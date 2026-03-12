@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoices>
+  <invoice>
+    <id>mmmqlaz5frv0nq82p</id>
+    <invoiceNumber>FAC-202603-5360</invoiceNumber>
+    <customer>
+      <firstName>Daoud</firstName>
+      <lastName>Taieb</lastName>
+      <email>taiebdaoud3@gmail.com</email>
+      <phone>44134396</phone>
+      <address>Sfax, Ain Road, Tunisia</address>
+      <city>sfax</city>
+      <postalCode>3042</postalCode>
+    </customer>
+    <lines>
+      <line>
+        <productId>165</productId>
+        <productName>Samsa Noisette</productName>
+        <quantity>1.4</quantity>
+        <unit>Kg</unit>
+        <unitPrice>89</unitPrice>
+        <total>124.6</total>
+      </line>
+      <line>
+        <productId>135</productId>
+        <productName>Kaak Warka Amande</productName>
+        <quantity>1</quantity>
+        <unit>Kg</unit>
+        <unitPrice>74</unitPrice>
+        <total>74</total>
+      </line>
+    </lines>
+    <subtotal>198.6</subtotal>
+    <tvaAmount>37.73</tvaAmount>
+    <total>236.33</total>
+    <status>draft</status>
+    <dueDate>2026-03-12</dueDate>
+    <createdAt>2026-03-12T00:35:41.393Z</createdAt>
+    <updatedAt>2026-03-12T00:35:41.393Z</updatedAt>
+  </invoice>
+</invoices>

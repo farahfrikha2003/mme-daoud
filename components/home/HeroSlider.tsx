@@ -11,7 +11,7 @@ const slides = [
         title: 'Bienvenue',
         subtitle: 'à la Maison',
         description: 'Découvrez l\'authenticité de la pâtisserie tunisienne traditionnelle',
-        image: '/images/hero/hero-1.jpg',
+        image: '/images/hero/hero-1.png',
         link: '/collection',
         buttonText: 'Découvrir'
     },
@@ -29,7 +29,7 @@ const slides = [
         title: 'Nos Délices',
         subtitle: 'Traditionnels',
         description: 'Un savoir-faire ancestral transmis de génération en génération',
-        image: '/images/hero/hero-1.jpg', // Reusing first image for now since quota is out
+        image: '/images/hero/hero-1.png', // Reusing first image for now since quota is out
         link: '/notre-histoire',
         buttonText: 'Notre histoire'
     }

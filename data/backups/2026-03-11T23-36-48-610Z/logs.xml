@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <logs>
   <log>
-    <id>mmmohl25ht1d0frtq</id>
-    <adminId>1</adminId>
-    <adminUsername>admin</adminUsername>
-    <action>login</action>
-    <entity>session</entity>
-    <details>Connexion réussie</details>
-    <ipAddress>::1</ipAddress>
-    <userAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36</userAgent>
-    <timestamp>2026-03-11T23:36:48.605Z</timestamp>
-  </log>
-  <log>
     <id>mkqrmlnwyo1z8b9j4</id>
     <adminId>1</adminId>
     <adminUsername>admin</adminUsername>

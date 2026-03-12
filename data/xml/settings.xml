@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <id>default</id>
+  <companyName>Pâtisserie Mme Daoud</companyName>
+  <companyAddress></companyAddress>
+  <companyPhone></companyPhone>
+  <companyEmail></companyEmail>
+  <tvaNumber></tvaNumber>
+  <tvaRate>19</tvaRate>
+  <currency>TND</currency>
+  <currencySymbol>DT</currencySymbol>
+  <updatedAt>2026-03-12T00:39:11.159Z</updatedAt>
+</settings>

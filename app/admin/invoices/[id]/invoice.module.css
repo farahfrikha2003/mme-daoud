@@ -1,0 +1,197 @@
+/* Facture – mise en page professionnelle, neutre */
+
+.doc {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  color: #1a1a1a;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-size: 13px;
+  line-height: 1.45;
+  padding: 2rem 2.5rem;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.docHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #1a1a1a;
+}
+
+.docLogo {
+  flex-shrink: 0;
+}
+
+.docCompany {
+  flex: 1;
+  min-width: 0;
+}
+
+.docCompanyName {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.35rem;
+}
+
+.docCompanyMeta {
+  color: #555;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
+.docCompanyMeta p {
+  margin: 0 0 0.2rem 0;
+}
+
+.docTitleBlock {
+  text-align: right;
+}
+
+.docTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: 0.02em;
+  margin: 0 0 0.25rem 0;
+}
+
+.docRef {
+  font-size: 0.9375rem;
+  color: #333;
+  margin: 0 0 0.15rem 0;
+}
+
+.docMeta {
+  font-size: 0.8125rem;
+  color: #555;
+  margin: 0;
+}
+
+.docParties {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.docSectionLabel {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.docAddress {
+  font-size: 0.9375rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.docAddress strong {
+  display: block;
+  color: #1a1a1a;
+  margin-bottom: 0.25rem;
+}
+
+.docAddress p {
+  margin: 0 0 0.2rem 0;
+}
+
+.docTableWrap {
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+.docTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.docTable th {
+  text-align: left;
+  padding: 0.65rem 0.75rem;
+  background: #f5f5f5;
+  font-weight: 600;
+  color: #333;
+  border: 1px solid #e0e0e0;
+}
+
+.docTable th:last-child,
+.docTable td.num {
+  text-align: right;
+}
+
+.docTable td {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #e8e8e8;
+  color: #333;
+}
+
+.docTable tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.docTotals {
+  margin-left: auto;
+  width: 280px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.docTotalsRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #eee;
+  font-size: 0.875rem;
+}
+
+.docTotalsRow:last-child {
+  border-bottom: none;
+  font-weight: 700;
+  font-size: 1rem;
+  background: #f5f5f5;
+  padding: 0.65rem 1rem;
+}
+
+.docFooter {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e0;
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.docFooter p {
+  margin: 0 0 0.35rem 0;
+}
+
+.noPrint {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+@media print {
+  .noPrint {
+    display: none !important;
+  }
+  .doc {
+    box-shadow: none;
+    border: 1px solid #ccc;
+    max-width: 100%;
+  }
+}

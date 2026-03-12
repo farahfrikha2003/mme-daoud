@@ -122,7 +122,8 @@ export type LogAction =
     | 'view';
 
 // Types d'entités pour les logs
-export type LogEntity = 'admin' | 'category' | 'product' | 'order' | 'session' | 'system' | 'employee';
+export type LogEntity = 'admin' | 'category' | 'product' | 'order' | 'session' | 'system' | 'employee'
+    | 'invoice' | 'quote' | 'delivery_note' | 'payment' | 'supplier' | 'stock' | 'settings';
 
 // Log d'action
 export interface ActionLog {

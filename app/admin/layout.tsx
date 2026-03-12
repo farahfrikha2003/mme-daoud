@@ -15,8 +15,16 @@ const navItems = [
     { href: '/admin/news', label: 'Actualités', icon: '📰' },
     { href: '/admin/employees', label: 'Employés', icon: '👥' },
     { href: '/admin/orders', label: 'Commandes', icon: '📦' },
+    { href: '/admin/invoices', label: 'Factures', icon: '🧾' },
+    { href: '/admin/quotes', label: 'Devis', icon: '📝' },
+    { href: '/admin/delivery-notes', label: 'Bons de livraison', icon: '🚚' },
+    { href: '/admin/payments', label: 'Paiements', icon: '💳' },
+    { href: '/admin/suppliers', label: 'Fournisseurs', icon: '🏭' },
+    { href: '/admin/stock', label: 'Gestion de stock', icon: '📦' },
+    { href: '/admin/reports', label: 'Rapports', icon: '📈' },
     { href: '/admin/clients', label: 'Clients', icon: '👤' },
     { href: '/admin/logs', label: 'Logs', icon: '📋' },
+    { href: '/admin/parametres', label: 'Paramètres', icon: '⚙️' },
 ];
 
 function AdminLayoutContent({ children }: { children: React.ReactNode }) {
@@ -85,7 +93,7 @@ function AdminLayoutContent({ children }: { children: React.ReactNode }) {
                 <header className={styles.header}>
                     <div className={styles.headerLeft}>
                         <h1 className={styles.pageTitle}>
-                            {navItems.find(i => i.href === pathname)?.label || 'Administration'}
+                            {navItems.find(i => i.href === pathname || (i.href !== '/admin' && pathname?.startsWith(i.href + '/')))?.label || 'Administration'}
                         </h1>
                     </div>
                     <div className={styles.headerRight}>
